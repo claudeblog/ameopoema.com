@@ -1,3 +1,3 @@
-# 575 Haicais 288 - Haicai de Coabito
-
-Era convívioAmar vira evitarE coabitar
+# 575 Haicais 288 - Haicai de Coabito  
+  
+Era convívioAmar vira evitarE coabitar  

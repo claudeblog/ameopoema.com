@@ -1,3 +1,3 @@
-# 575 Haicais 126 - Haicai Eventual
-
-Ser eventualReforço intervalar Intermitente
+# 575 Haicais 126 - Haicai Eventual  
+  
+Ser eventualReforço intervalar Intermitente  

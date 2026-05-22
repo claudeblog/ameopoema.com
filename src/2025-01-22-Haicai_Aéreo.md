@@ -1,8 +1,8 @@
-# 575 Haicais 22  - Haicai Aéreo
-
-Em Erro corre  
-Sal as aéreas alas  
-Erro corre-me  
+# 575 Haicais 22  - Haicai Aéreo  
   
-*Haicai Palíndromo.   
-Lido de trás para frente resulta no mesmo Haicai.
+Em Erro corre    
+Sal as aéreas alas    
+Erro corre-me    
+    
+*Haicai Palíndromo.     
+Lido de trás para frente resulta no mesmo Haicai.  

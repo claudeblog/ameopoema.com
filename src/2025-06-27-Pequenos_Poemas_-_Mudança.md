@@ -1,11 +1,11 @@
-# Pequenos Poemas - Mudança
-
-Aquela casa em que eu chegava, que era quente, e tinha gente, Pronta pra cuidar de mim.
-Gente pra ouvir meu dia, pra se alegrar em euforia, a presença que eu tinha aqui.Hoje minha casa é fria, vazia, sem vida.Sem plateia pro meu florescer.
-Era muito bom ser parte, ser momento de alento sempre que eu podia ter.A massagem apertada no ombro, o carinho de um café.Momentos de risadas continuas, as palestras dadas em pé.
-A conversa de travesseiro sempre foram meu desejo primeiro. Hoje não tenho pra mim.Durmo sozinho no frio do inverno sulista, no dia sem alento no fim.
-Tenho o coração apertado e tenho trabalho dobrado, pra ir e vir nessa vida.Conviver sozinho é barra, ter que existir na marra nessa existência sofrida.
-Cansado de estar só comigo, sem ter comigo um amigo que queira compartilhar.Pois o peso sozinho é dobrado, devia ser partilhado, pra se poder conversar.
-Me encontro agora no meio, da mudança sem marca-tempo, tentando me fazer sorrir.É um estado ingrato de peso e pouco trato mesmo eu querendo partir.
-Porque no fundo estou indo embora, de uma vida e de tantas memórias, que me fizeram muito feliz.É dificil segurar a barra de viver sua liberdade, caminhar pr'onde aponta o nariz.
-Sinto falta da vida, da parceria e do afeto, sinto falta das cachorras e dos abraços de peito aberto.Sinto falta do colo, do bolo, e do amasso, que faziam meu dia melhorMas hoje vou-me embora, atravesso a rua na aurora esperar  aqui é pior.
+# Pequenos Poemas - Mudança  
+  
+Aquela casa em que eu chegava, que era quente, e tinha gente, Pronta pra cuidar de mim.  
+Gente pra ouvir meu dia, pra se alegrar em euforia, a presença que eu tinha aqui.Hoje minha casa é fria, vazia, sem vida.Sem plateia pro meu florescer.  
+Era muito bom ser parte, ser momento de alento sempre que eu podia ter.A massagem apertada no ombro, o carinho de um café.Momentos de risadas continuas, as palestras dadas em pé.  
+A conversa de travesseiro sempre foram meu desejo primeiro. Hoje não tenho pra mim.Durmo sozinho no frio do inverno sulista, no dia sem alento no fim.  
+Tenho o coração apertado e tenho trabalho dobrado, pra ir e vir nessa vida.Conviver sozinho é barra, ter que existir na marra nessa existência sofrida.  
+Cansado de estar só comigo, sem ter comigo um amigo que queira compartilhar.Pois o peso sozinho é dobrado, devia ser partilhado, pra se poder conversar.  
+Me encontro agora no meio, da mudança sem marca-tempo, tentando me fazer sorrir.É um estado ingrato de peso e pouco trato mesmo eu querendo partir.  
+Porque no fundo estou indo embora, de uma vida e de tantas memórias, que me fizeram muito feliz.É dificil segurar a barra de viver sua liberdade, caminhar pr'onde aponta o nariz.  
+Sinto falta da vida, da parceria e do afeto, sinto falta das cachorras e dos abraços de peito aberto.Sinto falta do colo, do bolo, e do amasso, que faziam meu dia melhorMas hoje vou-me embora, atravesso a rua na aurora esperar  aqui é pior.  

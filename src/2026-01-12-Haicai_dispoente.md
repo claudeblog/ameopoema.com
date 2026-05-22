@@ -1,4 +1,4 @@
-# 575 Haicais 35 - Haicai dispoente
-
-Para viver mais
-Menos dispositivosMais disposição
+# 575 Haicais 35 - Haicai dispoente  
+  
+Para viver mais  
+Menos dispositivosMais disposição  
