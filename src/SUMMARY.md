@@ -244,7 +244,6 @@
 - [Haicai pro futuro](2025-01-18-Haicai_pro_futuro.md)
 - [Haicai Do Silêncio](2025-01-17-Haicai_Do_Silêncio.md)
 - [Haicai da Indiferença](2025-01-16-Haicai_da_Indiferença.md)
-- [Poesias Ágata ou Cacos de calcedônia, quartzo e ametista](2025-01-15-Poesias__Ágata_ou_Cacos_de_calcedônia,_quartzo_e_ametista.md)
 - [Poesia Manhãs de segunda ou Equilíbrio de gatos](2025-01-15-Poesia_-_Manhãs_de_segunda_ou_Equilíbrio_de_gatos.md)
 - [Pequenos Poemas A Casa](2025-01-15-Pequenos_Poemas_-_A_Casa.md)
 - [Oração Proteção](2025-01-15-Oração__Proteção.md)

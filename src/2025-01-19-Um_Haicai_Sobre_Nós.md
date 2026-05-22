@@ -1,3 +1,5 @@
 # 575 Haicais 19 - Um Haicai Sobre Nós
 
-Desatei meus nósFiz amarras mais bonitasCriei laços fortes
+Desatei meus nós  
+Fiz amarras mais bonitas  
+Criei laços fortes  

@@ -1,3 +1,5 @@
 # 575 Haicais 27 - Haicai de Autoengano
 
-Protege o egoAutoengano ético Impede o ser
+Protege o ego  
+Autoengano ético  
+Impede o ser

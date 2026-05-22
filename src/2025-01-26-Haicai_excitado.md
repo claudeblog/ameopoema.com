@@ -1,3 +1,5 @@
 # 575 Haicais 26 - Haicai excitado
 
-Atiça, citaSe ex cito, excitoO ex citado
+Atiça, cita  
+Se ex cito, excito  
+O ex citado
