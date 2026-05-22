@@ -1,5 +1,5 @@
 # Haicais Acrósticos  
-  
+
 Aos acrósticosOutros limitadoresSão acrescidos  
 São acrósticosAs estruturas belasOra reprimidas  
 Ora AcrósticosRetidos em sentidosAté explodir  

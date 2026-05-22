@@ -1,5 +1,5 @@
 # Haicais de Fios e fé  
-  
+
 Fio de afeto à vistaÉ fio que se fia hojefiado só amanhã  
 Olho-Navalha  
 Fita o laço  

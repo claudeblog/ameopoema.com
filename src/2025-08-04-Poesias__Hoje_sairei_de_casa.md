@@ -1,5 +1,5 @@
 # Poesias: Hoje sairei de casa  
-  
+
 Hoje sairei de casaHoje ligarei o celularHoje direi o que sinto E hoje gravarei meus momentos  
 Hoje responderei amigosHoje postarei nas redesHoje escreverei poesiaE Hoje festejarei o dia  
 Hoje chamarei quem eu quiser Hoje receberei visitas Hoje abraçarei meus amigosE falarei até com embaixadores  

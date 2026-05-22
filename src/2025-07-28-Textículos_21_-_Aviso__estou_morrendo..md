@@ -1,5 +1,5 @@
 # Textículos 21 - Aviso: estou morrendo.  
-  
+
 Desde que meu pai partiu, conheci a morte.  
 Não como ideia — mas como presença. Silente, constante, inexorável.  
 Descobri que são poucos, pouquíssimos, os que amamos que nos acompanham até nosso fim.  
@@ -21,7 +21,7 @@ Passei a olhar o tempo como precioso,os momentos como relâmpagos que valem poes
 Contemplo, agora, a delicadeza brevedas pessoas que amo.A fugacidade dos encontros,A beleza do estar se acentua, com o contraste da iminente partida.  
 Olho para cada momento como único e importante.  
 Experiências simples se tornaram sublimes, tornaram-se momentos de êxtase estético e completude.Ao encontrar na simples existência da vida o terror sacro de minha vindoura ausência.  
-  
+
 Essa profunda gratidão e pequenês de se maravilhar com as cores da joaninha entre as folhas,  
 Ou observar os pássaros e o por do sol no ápice de um dia difícil,  
 Veio a mim apenas ao olhar para o mais profundo medo abismal que habita no meu íntimo.  

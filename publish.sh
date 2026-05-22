@@ -6,8 +6,35 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Domain for GitHub Pages custom domain
 DOMAIN="ameopoema.com.br"
 
+# ------------------------------------------------------------
+# Função: garantir que toda linha NÃO vazia termine com 2 espaços
+# ------------------------------------------------------------
+fix_line_breaks() {
+    echo "🔧 Garantindo que todas as linhas não vazias terminem com 2 espaços..."
+    find . -name "*.md" -not -path "./book/*" -not -path "./.git/*" -not -path "./node_modules/*" | while read -r file; do
+        awk '
+        {
+            # Remove espaços/tabs no final, mas mantém o conteúdo
+            gsub(/[[:space:]]+$/, "", $0)
+            if (length($0) > 0) {
+                # Linha não vazia: adiciona exatamente dois espaços
+                print $0 "  "
+            } else {
+                # Linha vazia: imprime vazia (sem espaços)
+                print ""
+            }
+        }' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+        echo "   ✔ $file"
+    done
+    echo "✅ Correção concluída: todas as linhas com conteúdo agora têm 2 espaços no final."
+}
+
+# ------------------------------------------------------------
 echo "🔄 Atualizando SUMMARY.md..."
 ./update-summary.sh
+
+# Corrige line breaks em todos os .md antes de commitar
+fix_line_breaks
 
 if [ -n "$(git status --porcelain)" ]; then
     echo "📝 Adicionando todas as alterações..."
@@ -30,7 +57,6 @@ mdbook build
 # --- CRIAR E GARANTIR O ARQUIVO CNAME ---
 echo "🌐 Configurando domínio personalizado: $DOMAIN"
 echo "$DOMAIN" > book/CNAME
-# Também cria na raiz do repositório para referência (opcional)
 if [ ! -f "CNAME" ]; then
     echo "$DOMAIN" > CNAME
     echo "   (Arquivo CNAME criado na raiz do repositório)"

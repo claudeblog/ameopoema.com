@@ -1,5 +1,5 @@
 # Insônia Poética - Refluxo gastro-encefálico  
-  
+
 A câmara de eco que é minha mente grita...  
 Acordados, meus dedos buscam notas de acordes sonolentos. Enquanto a consciência se espalha ao vento do morro que na janela insiste em sussurrar.  
 As madrugadas, antes alegres tornaram-se tempos tenébrios, onde em meu escuro silencioso ouço o zunir insetil que soa alheio aos meus ouvidos.  
@@ -14,8 +14,8 @@ Trago com a cola um trago de água fria...
 O silêncio retorna sua cantoria, e um grito assombra-me ao passo que se esvai o sonho que mal começara.  
 Novamente acordado, abro levemente os olhos, hidrato o nó na garganta como me ensinaste.E mantenho o fluxo, sendo rio, como ensinei-me.  
 Que morfeu me leve, que da gaiola me liberte dos soluços deste meu refluxo de devaneios.  
-  
-  
-  
-  
+
+
+
+
 Foto de Acharaporn Kamornboonyarush  

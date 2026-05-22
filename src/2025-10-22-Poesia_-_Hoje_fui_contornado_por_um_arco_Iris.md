@@ -1,5 +1,5 @@
 # Poesia - Hoje fui contornado por um arco Iris  
-  
+
 Hoje um arco-íris veio me visitar.  
 Numa manhã fria, de paisagem belaEncontrava-se um arco em minha janelaArco-íris, colorido, de ponta a ponta...  
 Estava lá, 7 cores, muitos metros,Colorindo o céu montanhoso sulista.Da noite em claro involuntária Que no final pagaria-se "à vista"  

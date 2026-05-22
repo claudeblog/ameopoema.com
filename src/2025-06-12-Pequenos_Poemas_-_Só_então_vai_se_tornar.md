@@ -1,5 +1,5 @@
 # Pequenos Poemas - Só então vai se tornar  
-  
+
 No faz de conta da vidaEu escolho acreditarNa fantasia revividaMeu coração vai palpitar  
 Sei que o mundo é pedra fria,sem plano, rumo ou direção.Sei que a estrela não guia,nem há justiça em grão de chão.  
 Mas 'inda assim, ergo meu canto,traço sentido no vazio.Invento fé, invento encanto,ponho calor no desvario.  

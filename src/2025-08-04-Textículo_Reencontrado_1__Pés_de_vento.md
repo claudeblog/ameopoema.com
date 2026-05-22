@@ -1,5 +1,5 @@
 # Textículo Reencontrado 1: Pés de vento  
-  
+
 Refletindo um pouco notei a minha própria tolice, e motivação de muitas de minhas mazelas ansiosas.  
 A cada decisão, tenho-as tomado como um perene bloco.Acreditando que construo uma escada à céus, ao paraíso ou lugar qualquer.  
 Tenho construído porém, meu próprio cativeiro, moldo cada decisão para que orne com a cela e vede hermeticamente minha existência a uma caixa de caminhos definidos.  

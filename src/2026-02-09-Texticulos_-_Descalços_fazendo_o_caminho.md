@@ -1,5 +1,5 @@
 # Texticulos - Descalços fazendo o caminho  
-  
+
 Lhes convido a caminhar com os pés descalços na grama.  
 Aceitar as pedras pontudas, meter o pé na lama.  
 E assim sentiremos na sola, a relva e água do rio.Nadaremos nus em lagos, também passaremos frio.  

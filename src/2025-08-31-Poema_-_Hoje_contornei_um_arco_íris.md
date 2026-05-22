@@ -1,5 +1,5 @@
 # Poema - Hoje contornei um arco íris  
-  
+
 Hoje fui agraciado com um arco-íris  
 Pela estrada chuvosa, contornando as cidades,Encontrei no caminho um aro em metade.Arco-íris, colorido, de ponta a ponta.  
 Estava lá, 7 cores, muitos metros,Colorindo o céu cinza do Inverno Sulista.Nunca em vida fiquei tão feliz, por repensar e trocar de pista.  

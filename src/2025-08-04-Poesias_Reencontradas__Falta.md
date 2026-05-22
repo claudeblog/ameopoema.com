@@ -1,5 +1,5 @@
 # Poesias Reencontradas: Falta  
-  
+
 Me faz falta o esquilo vermelho.Os 3 piratas e o doido francês.Me faz falta o rapaz feiticeiro.As 5 criancas da primeira vez.  
 Me faz falta a ave raivosa.O rato do espaço e o homem bexigaMe faz falta a intimidade.Um pote de doce pra adoçar a vida.  
 Me faz falta as bobas fofocasOs meus confidentes e o velho bombeiro.Me faz falta o que vinha à frente.E escritos perdidos de um mundo inteiro.  

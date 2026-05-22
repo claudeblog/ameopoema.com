@@ -1,5 +1,5 @@
 # ANÚNCIO - Agora o blog tem Feed!  
-  
+
 Uma novidade simples, mas poderosa: o Ame o Poema agora tem um feed RSS!  
 Isso significa que você pode acompanhar minhas publicações automaticamente, direto no seu agregador de feeds favorito (como Feedly, Inoreader, ou até mesmo apps de podcast que suportem RSS).  
 Basta adicionar este link ao seu leitor de feeds:https://ameopoema.com/feeds/posts/default  

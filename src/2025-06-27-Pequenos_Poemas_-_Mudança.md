@@ -1,5 +1,5 @@
 # Pequenos Poemas - Mudança  
-  
+
 Aquela casa em que eu chegava, que era quente, e tinha gente, Pronta pra cuidar de mim.  
 Gente pra ouvir meu dia, pra se alegrar em euforia, a presença que eu tinha aqui.Hoje minha casa é fria, vazia, sem vida.Sem plateia pro meu florescer.  
 Era muito bom ser parte, ser momento de alento sempre que eu podia ter.A massagem apertada no ombro, o carinho de um café.Momentos de risadas continuas, as palestras dadas em pé.  

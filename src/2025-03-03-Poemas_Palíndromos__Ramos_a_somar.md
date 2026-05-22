@@ -1,5 +1,5 @@
 # Poemas Palíndromos: Ramos a somar  
-  
+
 É fã, reter e ter a féAmora e aromaRomã é amor  
 Arreta a terraAra, paraO dia caído Lê mel  
 É o eu que o éRola calorRoda a dorEco você, eco você  
