@@ -39,12 +39,8 @@ Tenho também re-encontrado rimas que não escolhi
 Mas encontro-as num ritmo súbito no canto do caderno de manhã  
 Tenho sido descuidado, com os olhos no futuro  
 Deixando que os delitos apareçam  
-Eu  
-Tenho roubado versos  
+Eu tenho roubado versos  
 É o que tenho feito  
 
 Versos roubados de:  
-Tenho quebrado copos de  
-Ana  
-Martins  
-Marques  
+Tenho quebrado copos de Ana Martins Marques  

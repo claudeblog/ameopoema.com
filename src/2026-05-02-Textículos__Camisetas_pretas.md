@@ -38,8 +38,7 @@ guache, lantejoulas e "muitos brilhos".....
 Rosa,  
 Amarelo, azul cor de céu.  
 
-Por que você diz: "  
-Sem cores é muito chato, o mundo brilhante fica mais bonito. É o que eu acredito!"  
+Por que você diz: "Sem cores é muito chato, o mundo brilhante fica mais bonito. É o que eu acredito!"  
 E o papai também.  
 
 Bora viver.  

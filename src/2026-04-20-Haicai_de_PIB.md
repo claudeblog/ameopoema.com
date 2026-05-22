@@ -1,11 +1,5 @@
 # 575 Haicais 49 - Haicai de PIB  
 
 Gente tem fome  
-
-De arroz,  
-Feijão e pão  
-
-Não de  
-P  
-I  
-B não  
+De arroz, feijão e pão  
+Não de  PIB não  
