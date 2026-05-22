@@ -7,26 +7,28 @@ export PATH="$HOME/.cargo/bin:$PATH"
 DOMAIN="ameopoema.com.br"
 
 # ------------------------------------------------------------
-# Função: garantir que toda linha NÃO vazia termine com 2 espaços
+# Função: garantir que toda linha NÃO vazia termine com exatamente 2 espaços
 # ------------------------------------------------------------
 fix_line_breaks() {
     echo "🔧 Garantindo que todas as linhas não vazias terminem com 2 espaços..."
     find . -name "*.md" -not -path "./book/*" -not -path "./.git/*" -not -path "./node_modules/*" | while read -r file; do
+        # Usa awk para processar linha a linha
         awk '
         {
-            # Remove espaços/tabs no final, mas mantém o conteúdo
+            # Remove qualquer whitespace (espaços, tabs) do final da linha
             gsub(/[[:space:]]+$/, "", $0)
+            # Se a linha não estiver vazia após a remoção
             if (length($0) > 0) {
-                # Linha não vazia: adiciona exatamente dois espaços
+                # Adiciona exatamente dois espaços
                 print $0 "  "
             } else {
-                # Linha vazia: imprime vazia (sem espaços)
+                # Linha vazia (ou que continha só espaços) -> imprime linha vazia
                 print ""
             }
         }' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
         echo "   ✔ $file"
     done
-    echo "✅ Correção concluída: todas as linhas com conteúdo agora têm 2 espaços no final."
+    echo "✅ Correção concluída: todas as linhas com conteúdo agora têm exatamente 2 espaços no final."
 }
 
 # ------------------------------------------------------------
