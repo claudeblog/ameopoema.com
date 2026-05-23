@@ -6,3 +6,13 @@ Erro corre-o
 * Haicai Palíndromo  
 
 ###### *11/01/2025*  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

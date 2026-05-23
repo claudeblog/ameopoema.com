@@ -31,3 +31,13 @@ Faria irá falar após a sopa:
 Sara-la faria ir a falar às aias.  
 
 ###### *19/06/2025*  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

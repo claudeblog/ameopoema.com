@@ -10,3 +10,13 @@ Mensagem é meio, é letra e é tempo, é tudo destaque a dispor do autor.
 Esgotei minha voz de empatia e respeito á implorar o olhar do agressor.  
 
 ###### *04/08/2025*  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

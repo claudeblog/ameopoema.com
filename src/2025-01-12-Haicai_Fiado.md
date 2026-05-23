@@ -5,3 +5,13 @@ Fio de afeto à vista
 fiado só amanhã  
 
 ###### *12/01/2025*  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

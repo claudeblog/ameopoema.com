@@ -45,3 +45,13 @@ E essa consciência se faz aterrorizantemente bela e motricial.
 Bora viver.  
 
 ###### *28/07/2025*  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

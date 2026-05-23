@@ -18,3 +18,13 @@ Suas asas falham e os dentes quebram sem tocar minha pele.
 Inspirado na oração à São Jorge  
 
 ###### *15/01/2025*  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

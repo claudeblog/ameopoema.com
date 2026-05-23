@@ -1,35 +1,34 @@
 #!/bin/bash
 
 # Script: fix-line-breaks.sh
-# Descrição: Garante que linhas não vazias terminem com 2 espaços e
-#            remove linhas vazias duplicadas (deixa no máximo uma por vez).
+# Descrição: Garante que linhas não vazias terminem com 2 espaços,
+#            remove linhas vazias duplicadas (deixa no máximo uma por vez),
+#            e adiciona 10 hard line breaks (dois espaços) no final do arquivo.
 
-echo "🔧 Garantindo que linhas não vazias terminem com 2 espaços e removendo linhas vazias duplicadas..."
+echo "🔧 Corrigindo arquivos .md..."
 
 find . -name "*.md" -not -path "./book/*" -not -path "./.git/*" -not -path "./node_modules/*" | while read -r file; do
     awk '
     BEGIN { blank_printed = 0 }
     {
-        # Remove qualquer whitespace do final da linha
         gsub(/[[:space:]]+$/, "", $0)
         
         if (length($0) > 0) {
-            # Linha com conteúdo: adiciona dois espaços e imprime
             print $0 "  "
-            blank_printed = 0   # reseta flag de linha vazia
+            blank_printed = 0
         } else {
-            # Linha vazia (ou só espaços depois da limpeza)
             if (!blank_printed) {
-                # Imprime apenas uma linha vazia se a anterior não foi vazia
                 print ""
                 blank_printed = 1
             }
-            # Se blank_printed já for 1, não imprime nada (pula duplicadas)
+        }
+    }
+    END {
+        for (i = 1; i <= 10; i++) {
+            print "  "   # dois espaços = hard line break no Markdown
         }
     }' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
     echo "   ✔ $file"
 done
 
-echo "✅ Correção concluída:"
-echo "   - Linhas com conteúdo → exatamente 2 espaços no final"
-echo "   - Linhas vazias duplicadas → reduzidas a apenas uma"
+echo "✅ Concluído: 10 hard line breaks (dois espaços) adicionados ao final de cada arquivo."
