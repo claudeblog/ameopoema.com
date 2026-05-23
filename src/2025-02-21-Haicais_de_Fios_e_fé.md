@@ -1,6 +1,5 @@
 # Haicais de Fios e fé  
 
-> 21/02/2025  
 
 
 
@@ -18,3 +17,6 @@ No fio da faca
 É fã reter a fé  
 Amar rede derrama  
 Ramos a somar  
+
+
+###### *21/02/2025*  

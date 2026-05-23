@@ -1,6 +1,5 @@
 # Texticulo 13 - Perdão  
 
-> 14/05/2025  
 
 
 
@@ -27,3 +26,6 @@ Ou deixando para o acaso o trabalho de reconstruir uma amizade.
 Que a culpa e vergonha que eu carrego esvaia-se.  
 Eu te perdôo.  
 Eu me perdôo.  
+
+
+###### *14/05/2025*  

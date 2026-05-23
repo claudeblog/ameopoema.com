@@ -1,6 +1,5 @@
 # Oração: Proteção  
 
-> 15/01/2025  
 
 
 
@@ -22,3 +21,6 @@ As garras e o fogo do inimigo se apequenam ante a tua presença em mim.
 Suas asas falham e os dentes quebram sem tocar minha pele.  
 -  
 Inspirado na oração à São Jorge  
+
+
+###### *15/01/2025*  

@@ -1,6 +1,5 @@
 # Poesias - O mímico  
 
-> 12/03/2025  
 
 
 
@@ -57,3 +56,6 @@ Ao ver-lhe transbordar em berros o que eu contive em soluços...
 Desespero-me  
 O mímico preservou para mim uma visita ao eu de quem tanto fujo.  
 E de quem tanto medo tenho em rever.  
+
+
+###### *12/03/2025*  

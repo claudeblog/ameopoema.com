@@ -1,6 +1,5 @@
 # Pequenos Poemas - Pequeno Espacinho  
 
-> 16/02/2025  
 
 
 
@@ -32,3 +31,6 @@ Abraçando a mim e pelo que eu passei
 Um espacinho mesmo que breve e fugaz  
 Pra num momentinho de pequena paz  
 Dar Band-Aid e carinho ao pequeno eu  
+
+
+###### *16/02/2025*  

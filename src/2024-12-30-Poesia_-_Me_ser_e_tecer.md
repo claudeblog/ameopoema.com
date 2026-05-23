@@ -1,6 +1,5 @@
 # Poesia - Me ser e tecer  
 
-> 30/12/2024  
 
 
 
@@ -35,3 +34,6 @@ Será o descanso nos dias pesados,
 Será a vila que cria as crianças.  
 A proteção pra trapezista poder voar.  
 Bora viver.  
+
+
+###### *30/12/2024*  

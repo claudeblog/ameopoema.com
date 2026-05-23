@@ -1,6 +1,5 @@
 # Poesias Reencontradas: Rascunhicídio  
 
-> 04/08/2025  
 
 
 
@@ -30,3 +29,6 @@ Publicados?
 Jamais.  
 Apenas rascunhados em sua breve existência.  
 Poesia Roubada  
+
+
+###### *04/08/2025*  

@@ -1,6 +1,5 @@
 # Insônia Poética - Refluxo gastro-encefálico  
 
-> 18/03/2025  
 
 
 
@@ -24,3 +23,6 @@ O silêncio retorna sua cantoria, e um grito assombra-me ao passo que se esvai o
 Novamente acordado, abro levemente os olhos, hidrato o nó na garganta como me ensinaste.  
 E mantenho o fluxo, sendo rio, como ensinei-me.  
 Que morfeu me leve, que da gaiola me liberte dos soluços deste meu refluxo de devaneios.  
+
+
+###### *18/03/2025*  

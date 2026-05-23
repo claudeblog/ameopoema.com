@@ -1,6 +1,5 @@
 # Haicais Silenciosos  
 
-> 18/02/2025  
 
 
 
@@ -13,3 +12,6 @@ Nada muda
 Indiferença   
 Também é violência   
 Enterrar é errar  
+
+
+###### *18/02/2025*  

@@ -1,6 +1,5 @@
 # Poesias: Hoje sairei de casa  
 
-> 04/08/2025  
 
 
 
@@ -35,3 +34,6 @@ Hoje nada me prende 
 Hoje terei liberdade  
 Hoje serei cidadão  
 #EleNão.  
+
+
+###### *04/08/2025*  

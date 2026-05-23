@@ -1,6 +1,5 @@
 # Textículos: Camisetas pretas  
 
-> 02/05/2026  
 
 
 
@@ -58,3 +57,6 @@ Bora viver.
 <source src="sigmamusicart-piano-music-504007.mp3" type="audio/mpeg">  
 Seu navegador não suporta o player de áudio.  
 </audio>  
+
+
+###### *02/05/2026*  

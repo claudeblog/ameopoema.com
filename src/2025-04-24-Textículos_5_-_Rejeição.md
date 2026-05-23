@@ -1,6 +1,5 @@
 # Textículos 5 - Rejeição  
 
-> 24/04/2025  
 
 
 
@@ -12,3 +11,6 @@ Por mais pessoal que seja a motivação e por pior que seja a comunicação.
 Ao respeitar a autonomia do outro em rejeitar, respeito minha autonomia em ser.  
 Alteridade.  
 Bora Viver  
+
+
+###### *24/04/2025*  

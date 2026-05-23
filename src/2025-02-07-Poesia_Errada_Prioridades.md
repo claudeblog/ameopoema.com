@@ -1,6 +1,5 @@
 # Poesia Errada: Prioridades  
 
-> 07/02/2025  
 
 
 
@@ -13,3 +12,6 @@ Prioriso o afeto
 Prioriso a coragem  
 Prioriso o viver  
 Priorizo o riso à ortografia  
+
+
+###### *07/02/2025*  

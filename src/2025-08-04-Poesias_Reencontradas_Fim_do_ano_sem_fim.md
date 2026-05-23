@@ -1,6 +1,5 @@
 # Poesias Reencontradas: Fim do ano sem fim  
 
-> 04/08/2025  
 
 
 
@@ -28,3 +27,6 @@ Outro ano começou enfim 
 Não outro ano no calendário   
 Mas um ano novo dentro de mim  
 - `Sobre o fim da pandemia no inicio do século XXI`  
+
+
+###### *04/08/2025*  

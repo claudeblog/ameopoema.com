@@ -1,6 +1,5 @@
 # Poemas palíndromo: Ser, e viver reviveres  
 
-> 13/01/2025  
 
 
 
@@ -13,3 +12,6 @@ Pera lá...
 Ser, e viver  
 Reviveres  
 - Poema palíndromo  
+
+
+###### *13/01/2025*  

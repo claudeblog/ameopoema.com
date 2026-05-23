@@ -1,6 +1,5 @@
 # Textículos 21 - Aviso: estou morrendo.  
 
-> 28/07/2025  
 
 
 
@@ -47,3 +46,6 @@ Incidentalmente, a consciência de minha condição terminal, me fez descobrir q
 E essa consciência se faz aterrorizantemente bela e motricial.  
 
 Bora viver.  
+
+
+###### *28/07/2025*  

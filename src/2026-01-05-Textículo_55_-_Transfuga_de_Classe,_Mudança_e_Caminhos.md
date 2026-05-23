@@ -1,6 +1,5 @@
 # Textículo 55 - Transfuga de Classe, Mudança e Caminhos  
 
-> 05/01/2026  
 
 
 
@@ -35,3 +34,6 @@ Seu lar, seu cerne, sua face e identidade tornam-se em si o próprio caminho.
 Em outras palavras, "A rua é nois".  
 
 Bora viver.  
+
+
+###### *05/01/2026*  

@@ -1,6 +1,5 @@
 # Poemas Palíndromos: Ramos a somar  
 
-> 03/03/2025  
 
 
 
@@ -31,3 +30,6 @@ Romã é amor
 Amora e aroma   
 É fã, reter e ter a fé  
 Ramos a somar  
+
+
+###### *03/03/2025*  

@@ -16,47 +16,28 @@ find "$TARGET_DIR" -maxdepth 1 -type f -name "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0
     tmp_file=$(mktemp)
 
     awk -v newdate="$formatted_date" '
+    # Remove linhas que contenham data nos formatos antigos:
+    #   > DD/MM/AAAA   (blockquote)
+    #   ###### *DD/MM/AAAA*   (h6 itálico)
+    # Depois, no final do arquivo, adiciona uma linha em branco e o h6 com a data em itálico.
     {
-        lines[NR] = $0
+        # Se a linha não for uma data antiga, guarda
+        if ($0 !~ /^> [0-9]{2}\/[0-9]{2}\/[0-9]{4}/ && 
+            $0 !~ /^#{6} \*[0-9]{2}\/[0-9]{2}\/[0-9]{4}\*/) {
+            lines[++n] = $0
+        }
     }
     END {
-        # Primeira linha é o título (presume-se)
-        print lines[1]
-        
-        # Procura pela primeira linha que seja um blockquote de data (formato > DD/MM/AAAA)
-        date_idx = 0
-        for (i = 2; i <= NR; i++) {
-            if (lines[i] ~ /^> [0-9]{2}\/[0-9]{2}\/[0-9]{4}/) {
-                date_idx = i
-                break
-            }
+        # Imprime todas as linhas mantidas
+        for (i = 1; i <= n; i++) {
+            print lines[i]
         }
-        
-        if (date_idx > 0) {
-            # Imprime linhas entre o título e a data (mantém formatação)
-            for (i = 2; i < date_idx; i++) {
-                print lines[i]
-            }
-            # Imprime a data atualizada
-            print "> " newdate
-            # Imprime o restante, ignorando outros possíveis blockquotes de data
-            for (i = date_idx + 1; i <= NR; i++) {
-                if (lines[i] ~ /^> [0-9]{2}\/[0-9]{2}\/[0-9]{4}/) {
-                    continue   # pula duplicatas
-                }
-                print lines[i]
-            }
-        } else {
-            # Nenhuma data encontrada: insere após o título com linhas em branco
-            print ""
-            print "> " newdate
-            print ""
-            for (i = 2; i <= NR; i++) {
-                print lines[i]
-            }
-        }
+        # Adiciona uma linha em branco (garante separação)
+        print ""
+        # Imprime a data como h6 itálico
+        print "###### *" newdate "*"
     }' "$file" > "$tmp_file"
 
     mv "$tmp_file" "$file"
-    echo "Corrigido: $file -> $formatted_date"
+    echo "Corrigido: $file -> data adicionada ao final como ###### *$formatted_date*"
 done

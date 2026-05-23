@@ -1,6 +1,5 @@
 # Poemas Roubados: Tacituras  
 
-> 13/12/2024  
 
 
 
@@ -21,3 +20,6 @@ Para se partilhar há de se dividir
 Azulejo ao chão então!  
 Mosaico de  
 Felicidades.  
+
+
+###### *13/12/2024*  

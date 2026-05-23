@@ -1,6 +1,5 @@
 # Textículo 2 - Troco acolhimento  
 
-> 24/03/2025  
 
 
 
@@ -17,3 +16,6 @@ Troco acolhimento 
 Dou e recebo.  
 Minutos de alento  
 Trocas de toque  
+
+
+###### *24/03/2025*  

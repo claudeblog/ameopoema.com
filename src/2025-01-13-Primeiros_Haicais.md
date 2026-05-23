@@ -1,6 +1,5 @@
 # Primeiros Haicais  
 
-> 13/01/2025  
 
 
 
@@ -21,3 +20,6 @@ Apenas pontos certos
 Viver pro futuro  
 Faz findar o passado  
 Também o contrário  
+
+
+###### *13/01/2025*  

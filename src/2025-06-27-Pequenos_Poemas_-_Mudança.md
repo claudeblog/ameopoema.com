@@ -1,6 +1,5 @@
 # Pequenos Poemas - Mudança  
 
-> 27/06/2025  
 
 
 
@@ -37,3 +36,6 @@ que me fizeram muito feliz.
 Sinto falta da vida, da parceria e do afeto, sinto falta das cachorras e dos abraços de peito aberto.  
 Sinto falta do colo, do bolo, e do amasso, que faziam meu dia melhor  
 Mas hoje vou-me embora, atravesso a rua na aurora esperar aqui é pior.  
+
+
+###### *27/06/2025*  

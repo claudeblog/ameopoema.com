@@ -1,6 +1,5 @@
 # Poesia Roubada: Tu me manques  
 
-> 01/02/2025  
 
 
 
@@ -15,3 +14,6 @@ Meu coração sofre
 Tua palavra ausente  
 Tu te manques   
 Tu me manques  
+
+
+###### *01/02/2025*  
