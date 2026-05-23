@@ -44,6 +44,9 @@ else
     echo "ℹ️ Nenhuma alteração para commitar."
 fi
 
+echo "📡 Gerando feed RSS..."
+./generate_feed.sh
+
 # ============================================================
 # Build e deploy
 # ============================================================
@@ -54,11 +57,6 @@ mdbook build
 echo "📄 Criando blog.html para leitura contínua..."
 ./create-blog.sh
 
-# ============================================================
-# Geração do feed RSS (com verificação rígida)
-# ============================================================
-echo "📡 Gerando feed RSS..."
-./generate_feed.sh
 
 if [ ! -f "feed.xml" ]; then
     echo "❌ ERRO: generate_feed.sh executou mas feed.xml não foi gerado."
