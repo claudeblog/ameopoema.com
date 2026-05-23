@@ -44,7 +44,7 @@ find . -name "*.md" \
     }
     END {
         # 3. ADIÇÃO DAS 10 LINHAS COM DOIS ESPAÇOS + INVISÍVEL
-        for (i = 1; i <= 10; i++) {
+        for (i = 1; i <= 100; i++) {
             # Cada linha contém: dois espaços (hard break) + caractere invisível
             print "  " inv
         }
