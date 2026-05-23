@@ -1,5 +1,4 @@
 # Poesias: Hombridade Solo  
-
 A maldade é um evento raro,  
 A indiferença, desumanização e covardia, atos mais comuns.  
 Delineiam a origem dos males do século 21.  
@@ -11,105 +10,9 @@ As crises humanitárias do mundo
 Tem sua raiz nesse solo.  
 A falta de hombridade no Homem,  
 Aquela que sobra na mãe solo.  
-
 ###### *10/01/2026*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​

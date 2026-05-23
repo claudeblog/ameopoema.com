@@ -1,5 +1,4 @@
 # Pequenos Poemas - Pequeno Espacinho  
-
 Quero um espacinho nesse mundo enorme  
 Para colocar minha criança interior  
 E com ela brincar sem nenhum pudor  
@@ -26,105 +25,9 @@ Abraçando a mim e pelo que eu passei
 Um espacinho mesmo que breve e fugaz  
 Pra num momentinho de pequena paz  
 Dar Band-Aid e carinho ao pequeno eu  
-
 ###### *16/02/2025*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​

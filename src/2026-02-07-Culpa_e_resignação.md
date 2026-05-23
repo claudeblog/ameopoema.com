@@ -1,5 +1,4 @@
 # Textículos - Culpa e resignação  
-
 Perdoe meus destempero, minhas confusões e desesperos.  
 Minha ausência no seu anseio e meus gritos de pedalada.  
 Vejo em você um eu que eu não quero repetir, e apesar de aceitar que sua vida é e será sua. É tão duro perceber o quão frágil nós somos e quão pequeno você é meu filho.  
@@ -17,105 +16,9 @@ Com sua chegada, eu aprendi que teve tanta coisa que eu nunca entendi.
 Que meu pai fazia por mim e que eu anseio fazer por ti.  
 Eu vou encontrar um caminho para funcionar e eu espero que as dores e os traumas sejam menores do que os significados positivos que eu quero deixar.  
 Por que você é a maior alegria de todos nós.  
-
 ###### *07/02/2026*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​

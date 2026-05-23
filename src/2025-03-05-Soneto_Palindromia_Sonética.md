@@ -1,5 +1,4 @@
 # Soneto: Palindromia Sonética  
-
 Sofro de palindromia, encanto raro,  
 Palíndromos são feitos cativantes,  
 Que dançam, num vaivém, tão intrigantes,  
@@ -14,105 +13,9 @@ Em versos que no caos se reacomodam.
 O que era limitação torna-se inspiração,  
 E a estrutura liberta minha mente,  
 Soneticamente inspirada, em criação.  
-
 ###### *05/03/2025*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​

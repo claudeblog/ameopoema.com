@@ -1,5 +1,4 @@
 # Poesias Reencontradas: Fim do ano sem fim  
-
 E enfim.... finda o fim,  
 Crianças voltam pra escola   
 Já consigo ouvir dentro mim   
@@ -16,111 +15,14 @@ Ouvi a sirene otrodia silente 
 E seu barulho não me incomodou   
 A merenda era boa, o riso contente   
 Essa inocência o mal não levou    
-
 Outro dia nascia aqui   
 Outro ano começou enfim   
 Não outro ano no calendário   
 Mas um ano novo dentro de mim  
 - `Sobre o fim da pandemia no inicio do século XXI`  
-
 ###### *04/08/2025*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
+&nbsp;<br>​
