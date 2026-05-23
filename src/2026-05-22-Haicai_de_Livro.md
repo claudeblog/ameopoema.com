@@ -1,6 +1,6 @@
 # 575 Haicais 71 - Haicai de Livro  
 
-Largo o Celular  
+Largo a tela  
 Desse vício me livro  
 Pego um livro  
 
