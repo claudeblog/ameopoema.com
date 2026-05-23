@@ -3,6 +3,7 @@
 - [Capa](Capa.md)  
 - [Sobre](Sobre.md)  
 - [Sumário](SUMMARY.md)  
+- [Template](2026-05-23-Template.md)  
 - [Haicai de gole](2026-05-08-Haicai_de_gole.md)  
 - [Textículos Camisetas pretas](2026-05-02-Textículos_Camisetas_pretas.md)  
 - [Haicai me leve](2026-04-27-Haicai_me_leve.md)  

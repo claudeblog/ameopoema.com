@@ -70,4 +70,8 @@ git push origin gh-pages --force
 cd -
 rm -rf "$TMP_DIR"
 
+echo "✍️ Novo Template gerado, boa escrita..."
+./template.sh
+
 echo "✅ Publicação concluída! O domínio $DOMAIN foi persistido."
+
