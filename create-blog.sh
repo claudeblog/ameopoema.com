@@ -29,7 +29,7 @@ echo "✅ blog.html criado."
 echo "🔘 Inserindo botão 'Blog' à esquerda do ícone de impressão..."
 
 # Usando apenas texto + emoji – sem SVG customizado
-BLOG_BUTTON='<a href="blog.html" title="Ver todos os poemas em sequência" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px;color: gray;">Blog</a>'
+BLOG_BUTTON='<a href="blog.html" title="Ver todos os poemas em sequência" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px;color: gray; font-weight: bolder;">Blog</a>'
 
 # Processa todas as páginas HTML (exceto print.html e blog.html)
 find book -maxdepth 1 -name "*.html" ! -name "print.html" ! -name "blog.html" -type f | while read -r page; do
