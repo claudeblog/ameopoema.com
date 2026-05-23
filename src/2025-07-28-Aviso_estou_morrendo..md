@@ -22,10 +22,12 @@ Pra tal condição, a literatura lista sintomas como: desespero crônico, ansied
 Outros sucumbem à ausência de sentido, de chão.  
 No meu caso, os sintomas são mais agudos.  
 Essa consciência me obriga a perguntar:  
+
 - Quem é esse que morrerá?  
 - O que, dentro de mim, deixará de existir com o fim?  
 - E quem é o eu, fora de mim, que será ausente?  
-Dessas perguntas, efeitos colaterais ainda mais grotescos derivam:  
+
+Dessas perguntas, efeitos colaterais ainda mais grotescos derivam,  
 Passei a olhar o tempo como precioso, os momentos como relâmpagos que valem poesia.  
 Contemplo, agora, a delicadeza breve das pessoas que amo.  
 A fugacidade dos encontros,  
