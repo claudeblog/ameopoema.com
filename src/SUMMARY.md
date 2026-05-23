@@ -270,6 +270,7 @@
 - [Haicais do Arvoredo](2024-10-06-Haicais_do_Arvoredo.md)  
 - [Poemas Roubados Tenho roubado versos](2024-10-01-Poemas_Roubados_Tenho_roubado_versos.md)  
 - [Creditos](2024-01-01-Creditos.md)  
+- [📡 RSS Feed](https://ameopoema.com/feed.xml)  
 &nbsp;<br>​
 &nbsp;<br>​
 &nbsp;<br>​

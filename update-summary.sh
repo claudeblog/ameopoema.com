@@ -53,6 +53,9 @@ for file in "${sorted_files[@]}"; do
     echo "- [$title]($rel_path)" >> "$TMP_SUMMARY"
 done
 
+# Adiciona link para o feed RSS no final do sumário
+echo "- [📡 RSS Feed](https://ameopoema.com/feed.xml)" >> "$TMP_SUMMARY"
+
 # Sobrescreve o conteúdo do arquivo original (sem deletá-lo)
 cat "$TMP_SUMMARY" > "$SUMMARY_FILE"
 rm -f "$TMP_SUMMARY"
