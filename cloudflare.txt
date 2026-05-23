@@ -1,7 +1,0 @@
-$ORIGIN ameopoema.com.
-$TTL 600
-@           600     IN      A       185.199.108.153
-@           600     IN      A       185.199.109.153
-@           600     IN      A       185.199.110.153
-@           600     IN      A       185.199.111.153
-_github-pages-challenge-claudeblog    600     IN      TXT     "0350f4742edee00bccb70a2ab60fe9"
