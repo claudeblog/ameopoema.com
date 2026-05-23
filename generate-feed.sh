@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # ================= CONFIGURAÇÕES =================
 SITE_URL="https://ameopoema.com"
 FEED_TITLE="Ame o Poema"
