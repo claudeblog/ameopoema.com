@@ -45,9 +45,4 @@ o mundo brilhante fica mais bonito.
 E o papai também.  
 Bora viver.  
 
-<audio controls style="width: 100%; margin: 1rem 0;">  
-<source src="sigmamusicart-piano-music-504007.mp3" type="audio/mpeg">  
-Seu navegador não suporta o player de áudio.  
-</audio>  
-
 ###### *02/05/2026*  
