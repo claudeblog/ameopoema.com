@@ -10,4 +10,6 @@ Vulnerabilidade
 Humanidade  
 
 
+
+
 ###### *27/04/2025*  

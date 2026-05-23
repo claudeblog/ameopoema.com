@@ -10,4 +10,6 @@ Indiferença vira 
 Desigualdade  
 
 
+
+
 ###### *18/08/2025*  
