@@ -23,10 +23,9 @@ find . -name "*.md" \
         gsub(inv, "", $0)                      # remove invisível
         gsub(/[[:space:]]+$/, "", $0)         # remove espaços/tabs finais
         
-        # Remove linhas que são apenas pontos
-        if ($0 ~ /^\.+$/) { next }
         # Remove linhas que são exatamente "&nbsp;<br>"
         if ($0 == "&nbsp;<br>") { next }
+        
         # Remove linhas vazias após limpeza (mas controle será feito depois)
         if (length($0) == 0) { next }
         
