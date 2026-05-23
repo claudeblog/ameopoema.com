@@ -27,14 +27,25 @@ Um espacinho mesmo que breve e fugaz
 Pra num momentinho de pequena paz  
 Dar Band-Aid e carinho ao pequeno eu  
 
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+
 ###### *16/02/2025*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  

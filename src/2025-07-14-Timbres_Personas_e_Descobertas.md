@@ -15,14 +15,25 @@ E te expressar de tal forma tão incrível em meu âmago.
 Eu sinto falta de ti, ainda mais, grande falta do eu distante, que busco reencontrar.  
 Ouço, indassim, esparços sussuros de teu timbre em minha consciência, e relembro quanto era bom ouvir-me por meio de sua voz.  
 
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+
 ###### *14/07/2025*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  

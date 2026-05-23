@@ -41,14 +41,25 @@ Eu tenho roubado versos
 Versos roubados de:  
 Tenho quebrado copos de Ana Martins Marques  
 
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+
 ###### *01/10/2024*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  

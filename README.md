@@ -23,13 +23,23 @@ Execute o script `install.sh` para instalar todas as dependências necessárias:
 chmod +x install.sh  
 ./install.sh  
 
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  

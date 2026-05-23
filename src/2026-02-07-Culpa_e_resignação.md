@@ -18,14 +18,25 @@ Que meu pai fazia por mim e que eu anseio fazer por ti.
 Eu vou encontrar um caminho para funcionar e eu espero que as dores e os traumas sejam menores do que os significados positivos que eu quero deixar.  
 Por que você é a maior alegria de todos nós.  
 
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+  ​  
+
 ###### *07/02/2026*  
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
-  ​
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  

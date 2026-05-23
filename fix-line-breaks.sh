@@ -29,7 +29,7 @@ find . -name "*.md" -not -path "./book/*" -not -path "./.git/*" -not -path "./no
     END {
         for (i = 1; i <= 10; i++) {
             # Imprime dois espaços + o caractere invisível para garantir que seja conteúdo
-            print "  " invisible
+            print ".  "
         }
     }' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
     echo "   ✔ $file"
