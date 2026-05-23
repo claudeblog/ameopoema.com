@@ -1,5 +1,8 @@
 # Textículos: Camisetas pretas  
 
+> 02/05/2026  
+
+
 O conforto das camisetas pretas,  
 
 Não desbotam, Não amassam,  

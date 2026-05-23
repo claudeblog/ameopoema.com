@@ -1,4 +1,7 @@
 # Texticulo 13 - Perdão  
+
+> 14/05/2025  
+
 E eu só queria ter sido ouvido.  
 Queria que meu sofrimento fosse visto, que fosse reconhecido e validado.  
 Queria ouvir que a pessoa sabe a dor que causou e se arrepende.  

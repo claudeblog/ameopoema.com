@@ -1,4 +1,7 @@
 # Poema palíndromo - Ame... Ó Poesia  
+
+> 03/12/2025  
+
 Aí, se o poema amar  
 Até o poeta ama  
 Até o poeta rama  

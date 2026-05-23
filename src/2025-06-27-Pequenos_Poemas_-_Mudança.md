@@ -1,4 +1,7 @@
 # Pequenos Poemas - Mudança  
+
+> 27/06/2025  
+
 Aquela casa em que eu chegava, que era quente, e tinha gente,   
 Pronta pra cuidar de mim.  
 Gente pra ouvir meu dia, pra se alegrar em euforia, a presença que eu tinha aqui.  

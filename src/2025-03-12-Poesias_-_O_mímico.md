@@ -1,4 +1,7 @@
 # Poesias - O mímico  
+
+> 12/03/2025  
+
 Dispersas, expressões todas têm o mesmo valor:  
 " Tu és incrível", "compre pão", "pneumoultramicroscopicossilicovulcanoconiótico".  
 Dispersas, todas as frases contêm o mesmo peso  

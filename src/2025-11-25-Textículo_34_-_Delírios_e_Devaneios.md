@@ -1,4 +1,7 @@
 ## Textículo 34 - Delírios e Devaneios  
+
+> 25/11/2025  
+
 O destino age sobre o que sabemos.  
 Se somos pretensamente livres para fazer o que quisermos, mas apenas podemos querer aquilo que conhecemos.  
 Nosso querer é fruto do nosso conhecimento e das informações que temos no momento em que decidimos querer algo.  

@@ -1,4 +1,7 @@
 # Textículo 2 - Troco acolhimento  
+
+> 24/03/2025  
+
 Troco acolhimento,  
 Entrego carinho,  
 Recebo alento.  

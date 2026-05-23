@@ -1,4 +1,7 @@
 # Insônia Poética - Refluxo gastro-encefálico  
+
+> 18/03/2025  
+
 A câmara de eco que é minha mente grita...  
 Acordados, meus dedos buscam notas de acordes sonolentos.  
 Enquanto a consciência se espalha ao vento do morro que na janela insiste em sussurrar.  

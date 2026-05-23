@@ -1,4 +1,7 @@
 # Insônia Poética - O Primeiro Notívago  
+
+> 15/01/2025  
+
 Notívagos existem.  
 Por que, para o primeiro ser humano ver o sol nascer,  
 Alguem teve que não adormecer, e esperar.  

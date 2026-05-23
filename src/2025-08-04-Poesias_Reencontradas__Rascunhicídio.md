@@ -1,4 +1,7 @@
 # Poesias Reencontradas: Rascunhicídio  
+
+> 04/08/2025  
+
 Rascunhicídio  
 Os escritos escapam as bordas  
 As idéias esvaem às frestas  

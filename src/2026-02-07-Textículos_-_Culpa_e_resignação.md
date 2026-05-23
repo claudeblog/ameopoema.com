@@ -1,4 +1,7 @@
 # Textículos - Culpa e resignação  
+
+> 07/02/2026  
+
 Perdoe meus destempero, minhas confusões e desesperos.  
 Minha ausência no seu anseio e meus gritos de pedalada.  
 Vejo em você um eu que eu não quero repetir, e apesar de aceitar que sua vida é e será sua. É tão duro perceber o quão frágil nós somos e quão pequeno você é meu filho.  
