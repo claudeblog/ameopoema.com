@@ -4,6 +4,6 @@ Havendo diálogo 
 Havendo respeito  
 Haverá jeito  
 
-######*02/06/2025*  
+###### *02/06/2025*  
 
 ###### *02/06/2025*  

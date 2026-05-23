@@ -30,6 +30,6 @@ Faria irá falar após a sopa:
 - Ei!Erra!Farreie!SAIA!"  
 Sara-la faria ir a falar às aias.  
 
-######*19/06/2025*  
+###### *19/06/2025*  
 
 ###### *19/06/2025*  

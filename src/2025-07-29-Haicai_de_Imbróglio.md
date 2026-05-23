@@ -4,6 +4,6 @@ Ao Locatário 
 A Jurisprudência é  
 Ser Feito otário  
 
-######*29/07/2025*  
+###### *29/07/2025*  
 
 ###### *29/07/2025*  

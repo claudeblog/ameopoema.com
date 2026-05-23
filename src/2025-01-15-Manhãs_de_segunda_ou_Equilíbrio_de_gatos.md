@@ -14,6 +14,6 @@ Desídia consola e permite o descanso da Preguiça enquanto Raiva e
 Fome lutam entre si.  
 Fome por fim, alimenta a Raiva, que vence a Preguiça e todos acordam finalmente para vencer o dia!  
 
-######*15/01/2025*  
+###### *15/01/2025*  
 
 ###### *15/01/2025*  

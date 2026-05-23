@@ -4,6 +4,6 @@ Era convívio
 Amar vira evitar  
 E coabitar  
 
-######*16/10/2025*  
+###### *16/10/2025*  
 
 ###### *16/10/2025*  

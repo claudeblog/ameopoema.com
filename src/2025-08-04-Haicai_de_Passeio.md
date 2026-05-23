@@ -5,6 +5,6 @@ Hoje andarei na rua
 # EleNão  
 - Lia-se Hashtag  
 
-######*04/08/2025*  
+###### *04/08/2025*  
 
 ###### *04/08/2025*  

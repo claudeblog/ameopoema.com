@@ -4,6 +4,6 @@ Insônia cinza
 Poética noite fria  
 Calor na mente  
 
-######*05/03/2025*  
+###### *05/03/2025*  
 
 ###### *05/03/2025*  

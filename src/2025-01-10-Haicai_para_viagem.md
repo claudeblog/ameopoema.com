@@ -4,6 +4,6 @@ Partidas e encontros
 Já não existem chegadas  
 Apenas pontos certos  
 
-######*10/01/2025*  
+###### *10/01/2025*  
 
 ###### *10/01/2025*  

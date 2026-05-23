@@ -19,6 +19,6 @@ Novamente acordado, abro levemente os olhos, hidrato o nó na garganta como me e
 E mantenho o fluxo, sendo rio, como ensinei-me.  
 Que morfeu me leve, que da gaiola me liberte dos soluços deste meu refluxo de devaneios.  
 
-######*18/03/2025*  
+###### *18/03/2025*  
 
 ###### *18/03/2025*  

@@ -4,6 +4,6 @@ Ninguém se feriu
 Quando o PIB caiu  
 Mas parou o Brazil  
 
-######*20/04/2026*  
+###### *20/04/2026*  
 
 ###### *20/04/2026*  

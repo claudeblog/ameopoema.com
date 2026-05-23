@@ -4,6 +4,6 @@ Pista molhada
 Contornando as curvas  
 Chuva arco-íris  
 
-######*31/08/2025*  
+###### *31/08/2025*  
 
 ###### *31/08/2025*  
