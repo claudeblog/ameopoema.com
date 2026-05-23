@@ -4,4 +4,4 @@ Quis queria ia
 Imenso potencial  
 Ficou no Faria  
 
-###### *09/08/2025*
+###### *09/08/2025*  

@@ -4,4 +4,4 @@ Pássaro pousa
 Em fino frágil galho  
 Mas passaro voa  
 
-###### *30/07/2025*
+###### *30/07/2025*  

@@ -4,4 +4,4 @@ Essencialismo 
 Manter o essencial   
 \_____________\_  
 
-###### *25/07/2025*
+###### *25/07/2025*  

@@ -4,4 +4,4 @@ Lavando louça 
 Esfrego você molha  
 Ninguém seca  
 
-###### *26/05/2025*
+###### *26/05/2025*  

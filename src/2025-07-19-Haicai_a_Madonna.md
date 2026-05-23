@@ -4,4 +4,4 @@ Palco escuro
 A nave solta a trilha  
 Madonna brilha  
 
-###### *19/07/2025*
+###### *19/07/2025*  

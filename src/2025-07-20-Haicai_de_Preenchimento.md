@@ -6,4 +6,4 @@ Em minha casa
 Mais vale a presença   
 Do que o nome  
 
-###### *20/07/2025*
+###### *20/07/2025*  

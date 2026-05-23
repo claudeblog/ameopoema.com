@@ -4,4 +4,4 @@ A sutil arte
 Responsabilidade   
 Integridade  
 
-###### *04/07/2025*
+###### *04/07/2025*  

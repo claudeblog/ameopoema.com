@@ -7,4 +7,4 @@ Quatro coisas movem o ser humano, necessariamente nessa ordem: 
 4. A fome.  
 Amor, nada mais é do que sentir ódio, tesão, sede e fome por uma pessoa ao mesmo tempo.  
 
-###### *27/02/2025*
+###### *27/02/2025*  

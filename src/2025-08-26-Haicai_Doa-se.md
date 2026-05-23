@@ -4,4 +4,4 @@ Doa-se haicais
 Poesias e memórias   
 Doa a quem doer  
 
-###### *26/08/2025*
+###### *26/08/2025*  

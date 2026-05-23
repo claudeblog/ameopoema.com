@@ -4,4 +4,4 @@ Em dia do amor
 Comemoração   
 Intimidade  
 
-###### *13/06/2025*
+###### *13/06/2025*  

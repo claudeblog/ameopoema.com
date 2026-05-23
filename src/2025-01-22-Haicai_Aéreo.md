@@ -5,4 +5,4 @@ Sal as aéreas alas
 Erro corre-me  
 * Haicai palíndromo.  
 
-###### *22/01/2025*
+###### *22/01/2025*  

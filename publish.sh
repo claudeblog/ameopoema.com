@@ -5,16 +5,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 DOMAIN="ameopoema.com"
 
-echo "✍️ Corrigindo quebras de linha nos arquivos .md..."
-./fix-line-breaks.sh
-
-echo "🔄 Atualizando SUMMARY.md..."
-./update-summary.sh
-
-echo "📅 Corrigindo data nos arquivos..."
-./fix-dates.sh
-
-
 # ============================================================
 # Renomeia arquivos .md com base no título (cabeçalho #)
 # ============================================================
@@ -24,6 +14,16 @@ if [ -f "./rename-files.sh" ]; then
 else
     echo "⚠️  Aviso: rename-files.sh não encontrado. Pulando renomeação."
 fi
+
+echo "🔄 Atualizando SUMMARY.md..."
+./update-summary.sh
+
+echo "📅 Corrigindo data nos blocos de citação..."
+./fix-dates.sh
+
+echo "✍️ Corrigindo quebras de linha nos arquivos .md..."
+./fix-line-breaks.sh
+
 
 # ============================================================
 # Commit e push das alterações (incluindo renomeações)

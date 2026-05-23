@@ -4,4 +4,4 @@ A terra gira 
 Vida é bailarina  
 Em Piroutte  
 
-###### *03/07/2025*
+###### *03/07/2025*  

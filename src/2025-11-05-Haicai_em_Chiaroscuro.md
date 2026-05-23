@@ -4,4 +4,4 @@ Verso inverso
 Esbóço e rasúro  
 Em chiaroscuro  
 
-###### *05/11/2025*
+###### *05/11/2025*  

@@ -4,4 +4,4 @@ Cinco outonos
 Abraços viram abrigo  
 O dado sorri.  
 
-###### *01/06/2025*
+###### *01/06/2025*  

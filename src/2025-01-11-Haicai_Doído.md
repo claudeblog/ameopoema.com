@@ -5,4 +5,4 @@ O erro corre
 Erro corre-o  
 * Haicai Palíndromo  
 
-###### *11/01/2025*
+###### *11/01/2025*  

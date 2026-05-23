@@ -14,4 +14,4 @@ O primeiro dos passarinhos a cantar, a luz do sol colorindo o infinito
 e pintando de azul a escuridão...  
 O céu azul nasce primeiro aos olhos vermelhos  
 
-###### *15/01/2025*
+###### *15/01/2025*  
