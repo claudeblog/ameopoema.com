@@ -48,6 +48,7 @@ fi
 # Build e deploy
 # ============================================================
 echo "📚 Construindo o site com mdBook..."
+rm -rf book/
 mdbook build
 
 echo "📄 Criando blog.html para leitura contínua..."
