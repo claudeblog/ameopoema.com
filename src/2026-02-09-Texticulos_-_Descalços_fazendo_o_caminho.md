@@ -1,11 +1,5 @@
 # Texticulos - Descalços fazendo o caminho  
 
-
-
-
-
-
-
 Lhes convido a caminhar com os pés descalços na grama.  
 Aceitar as pedras pontudas,  
 meter o pé na lama.  
@@ -21,8 +15,5 @@ E congelar minha bunda no vento.
 
 Eu te amo  
 Bora viver.  
-
-
-
 
 ###### *09/02/2026*  

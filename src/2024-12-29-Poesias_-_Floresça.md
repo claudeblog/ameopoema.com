@@ -1,10 +1,5 @@
 # Poesias - Floresça  
 
-
-
-
-
-
 Desejo que você floresça  
 Desejo que você espalhe seus galhos e ramos em direção ao horizonte.  
 Desejo que o sol nutra suas folhas e que a vida nutra sua alma.  
@@ -17,8 +12,5 @@ Desejo que nenhum vaso nunca te conforme, que você nunca seja muda de ninguém,
 Seja a ti.  
 Desejo que você possa ser sombra de alguém mas que você sempre recarregue seu sol.  
 Desejo que você floresça em toda primavera, mas também no verão, outono e no inverno ao friozinho do vento suli.  
-
-
-
 
 ###### *29/12/2024*  

@@ -1,10 +1,5 @@
 # Pequenos Poemas - A Casa  
 
-
-
-
-
-
 Logo por ali,  
 Existe uma morada,  
 Residência bela,  
@@ -59,8 +54,5 @@ Mesmo estando muito bem escondida,
 A casa mais bela é jamais esquecida,  
 Pois toda criança já foi abrigada  
 No número zero, na casa engraçada...  
-
-
-
 
 ###### *15/01/2025*  

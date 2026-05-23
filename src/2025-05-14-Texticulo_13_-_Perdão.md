@@ -1,10 +1,5 @@
 # Texticulo 13 - Perdão  
 
-
-
-
-
-
 E eu só queria ter sido ouvido.  
 Queria que meu sofrimento fosse visto, que fosse reconhecido e validado.  
 Queria ouvir que a pessoa sabe a dor que causou e se arrepende.  
@@ -26,8 +21,5 @@ Ou deixando para o acaso o trabalho de reconstruir uma amizade.
 Que a culpa e vergonha que eu carrego esvaia-se.  
 Eu te perdôo.  
 Eu me perdôo.  
-
-
-
 
 ###### *14/05/2025*  

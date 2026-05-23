@@ -1,10 +1,5 @@
 # Poesias: Hoje sairei de casa  
 
-
-
-
-
-
 Hoje sairei de casa  
 Hoje ligarei o celular  
 Hoje direi o que sinto   
@@ -34,8 +29,5 @@ Hoje nada me prende 
 Hoje terei liberdade  
 Hoje serei cidadão  
 #EleNão.  
-
-
-
 
 ###### *04/08/2025*  

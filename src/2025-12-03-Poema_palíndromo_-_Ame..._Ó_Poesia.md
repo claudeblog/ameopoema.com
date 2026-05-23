@@ -1,10 +1,5 @@
 # Poema palíndromo - Ame... Ó Poesia  
 
-
-
-
-
-
 Aí, se o poema amar  
 Até o poeta ama  
 Até o poeta rama  
@@ -18,8 +13,5 @@ Aí, se o poema amar
 Até o poeta ama  
 Até o poeta rama  
 Ame! Ó poesia  
-
-
-
 
 ###### *03/12/2025*  

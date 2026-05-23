@@ -1,10 +1,5 @@
 # Poema - Hoje contornei um arco íris  
 
-
-
-
-
-
 Hoje fui agraciado com um arco-íris  
 Pela estrada chuvosa, contornando as cidades,  
 Encontrei no caminho um aro em metade.  
@@ -34,8 +29,5 @@ Sua mão quente, a tocar minha mão.
 Entendo agora o que deusa Íris, a mensageira viria a dizer,  
 Nenhum pote de ouro compra,   
 O que a íris do olho não pode ver.  
-
-
-
 
 ###### *31/08/2025*  

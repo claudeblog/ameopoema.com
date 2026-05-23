@@ -16,28 +16,34 @@ find "$TARGET_DIR" -maxdepth 1 -type f -name "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0
     tmp_file=$(mktemp)
 
     awk -v newdate="$formatted_date" '
-    # Remove linhas que contenham data nos formatos antigos:
-    #   > DD/MM/AAAA   (blockquote)
-    #   ###### *DD/MM/AAAA*   (h6 itálico)
-    # Depois, no final do arquivo, adiciona uma linha em branco e o h6 com a data em itálico.
     {
-        # Se a linha não for uma data antiga, guarda
-        if ($0 !~ /^> [0-9]{2}\/[0-9]{2}\/[0-9]{4}/ && 
-            $0 !~ /^#{6} \*[0-9]{2}\/[0-9]{2}\/[0-9]{4}\*/) {
-            lines[++n] = $0
-        }
+        # Armazena todas as linhas em um array
+        lines[++n] = $0
     }
     END {
-        # Imprime todas as linhas mantidas
-        for (i = 1; i <= n; i++) {
+        # Imprime todas as linhas exceto a última
+        for (i = 1; i <= n-1; i++) {
             print lines[i]
         }
-        # Adiciona uma linha em branco (garante separação)
-        print ""
-        # Imprime a data como h6 itálico
-        print "###### *" newdate "*"
+        # Trata a última linha
+        last = lines[n]
+        # Verifica se a última linha já está no formato "###### *DD/MM/AAAA*"
+        if (last ~ /^###### \*[0-9]{2}\/[0-9]{2}\/[0-9]{4}\*$/ || 
+            last ~ /^###### \*[0-9]{2}\/[0-9]{2}\/[0-9]{4}\*[[:space:]]*$/) {
+            # Substitui pela nova data
+            print "###### *" newdate "*"
+        } else {
+            # Mantém a última linha
+            print last
+            # Adiciona linha em branco se a última não for vazia
+            if (last != "") {
+                print ""
+            }
+            # Adiciona a nova data
+            print "###### *" newdate "*"
+        }
     }' "$file" > "$tmp_file"
 
     mv "$tmp_file" "$file"
-    echo "Corrigido: $file -> data adicionada ao final como ###### *$formatted_date*"
+    echo "Corrigido: $file -> data atualizada/adicionada ao final como ###### *$formatted_date*"
 done

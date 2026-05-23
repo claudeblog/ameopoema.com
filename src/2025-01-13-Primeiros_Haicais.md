@@ -1,10 +1,5 @@
 # Primeiros Haicais  
 
-
-
-
-
-
 Madrugada quente  
 O livro rouba meu sono  
 Sonho acordado  
@@ -20,8 +15,5 @@ Apenas pontos certos
 Viver pro futuro  
 Faz findar o passado  
 Também o contrário  
-
-
-
 
 ###### *13/01/2025*  

@@ -70,6 +70,7 @@ scripts=(
     "publish.sh"
     "rename_.sh"
     "update-summary.sh"
+    "template.sh"
 )
 
 for script in "${scripts[@]}"; do

@@ -1,10 +1,5 @@
 # Haicais Acrósticos  
 
-
-
-
-
-
 Aos acrósticos  
 Outros limitadores  
 São acrescidos  
@@ -26,8 +21,5 @@ Contem: 575 Haicais 160 - Haicai Aos acrósticos
 575 Haicais 165 - Haicai Até acrósticos  
 575 Haicais 166 - Haicai Era Acróstico  
 `Dedicado ao meu amigo Luco o Arquivista Naval`  
-
-
-
 
 ###### *15/06/2025*  

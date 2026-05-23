@@ -1,10 +1,5 @@
 # Poemas Roubados: Tacituras  
 
-
-
-
-
-
 Desviados da alegria  
 Em linha reta seguimos  
 Na pobre linha de produção  
@@ -20,8 +15,5 @@ Para se partilhar há de se dividir
 Azulejo ao chão então!  
 Mosaico de  
 Felicidades.  
-
-
-
 
 ###### *13/12/2024*  

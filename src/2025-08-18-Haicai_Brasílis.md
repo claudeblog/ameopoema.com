@@ -1,15 +1,7 @@
 # 575 Haicais 229 - Haicai Brasílis  
 
-
-
-
-
-
 Terra brasílis  
 Indiferença vira   
 Desigualdade  
-
-
-
 
 ###### *18/08/2025*  

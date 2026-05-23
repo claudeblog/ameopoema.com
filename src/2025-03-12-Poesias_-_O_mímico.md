@@ -1,10 +1,5 @@
 # Poesias - O mímico  
 
-
-
-
-
-
 Dispersas, expressões todas têm o mesmo valor:  
 " Tu és incrível", "compre pão", "pneumoultramicroscopicossilicovulcanoconiótico".  
 Dispersas, todas as frases contêm o mesmo peso  
@@ -56,8 +51,5 @@ Ao ver-lhe transbordar em berros o que eu contive em soluços...
 Desespero-me  
 O mímico preservou para mim uma visita ao eu de quem tanto fujo.  
 E de quem tanto medo tenho em rever.  
-
-
-
 
 ###### *12/03/2025*  

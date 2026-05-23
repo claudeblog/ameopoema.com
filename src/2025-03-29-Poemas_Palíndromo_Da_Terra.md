@@ -1,10 +1,5 @@
 # Poemas Palíndromo: Da Terra  
 
-
-
-
-
-
 Arreta!  
 Da origem me giro.  
 Levo mel e telemóvel.  
@@ -33,8 +28,5 @@ Levo mel e telemóvel
 Origem me giro-a  
 Da terra  
 > `- Claude Em homenagem a Pessoa mais corajosa que eu conheço.`  
-
-
-
 
 ###### *29/03/2025*  

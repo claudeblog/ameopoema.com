@@ -1,10 +1,5 @@
 # Poesias Reencontradas: Falta  
 
-
-
-
-
-
 Me faz falta o esquilo vermelho.  
 Os 3 piratas e o doido francês.  
 Me faz falta o rapaz feiticeiro.  
@@ -41,8 +36,5 @@ Me faz falta os amigos queridos,
 Aqueles que a vida levou, não a morte,  
 Me faz falta meu melhor amigo,  
 E me faz falta um abraço de pai.  
-
-
-
 
 ###### *04/08/2025*  

@@ -1,10 +1,5 @@
 # Poemas Palindromos: Ei! Erra! Farreie!  
 
-
-
-
-
-
 Saia!  
 Sara-la faria, ir a falar as aias:  
 - "Ei!Erra!Farreie!"  
@@ -34,8 +29,5 @@ Faria irá falar após a sopa:
 - "Ei!Erra!Farreie!  
 - Ei!Erra!Farreie!SAIA!"  
 Sara-la faria ir a falar às aias.  
-
-
-
 
 ###### *19/06/2025*  

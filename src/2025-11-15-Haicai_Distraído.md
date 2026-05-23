@@ -1,15 +1,7 @@
 # 575 Haicais 320 - Haicai Distraído  
 
-
-
-
-
-
 Eu me distrai   
 Nunca mais eu vou dormir  
 Eu me confundi  
-
-
-
 
 ###### *15/11/2025*  

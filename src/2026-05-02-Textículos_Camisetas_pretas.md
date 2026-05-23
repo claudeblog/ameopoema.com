@@ -1,11 +1,5 @@
 # Textículos: Camisetas pretas  
 
-
-
-
-
-
-
 O conforto das camisetas pretas,  
 
 Não desbotam, Não amassam,  
@@ -13,12 +7,10 @@ Secam no corpo e não pegam odor.
 São macias, no frio esquentam  
 Também são frescas quando calor  
 
-
 Encontrei nesse guarda-roupa incolor,  
 A facilidade das manhãs preguiçosas  
 De olhos fechados pego uma delas  
 Sem medo do branco ter virado rosa.  
-
 
 É realmente um feito tecelão  
 Tecido macio que veste em conforto  
@@ -57,8 +49,5 @@ Bora viver.
 <source src="sigmamusicart-piano-music-504007.mp3" type="audio/mpeg">  
 Seu navegador não suporta o player de áudio.  
 </audio>  
-
-
-
 
 ###### *02/05/2026*  

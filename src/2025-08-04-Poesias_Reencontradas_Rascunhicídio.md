@@ -1,10 +1,5 @@
 # Poesias Reencontradas: Rascunhicídio  
 
-
-
-
-
-
 Rascunhicídio  
 Os escritos escapam as bordas  
 As idéias esvaem às frestas  
@@ -29,8 +24,5 @@ Publicados?
 Jamais.  
 Apenas rascunhados em sua breve existência.  
 Poesia Roubada  
-
-
-
 
 ###### *04/08/2025*  
