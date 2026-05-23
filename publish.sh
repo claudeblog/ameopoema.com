@@ -58,11 +58,6 @@ echo "📄 Criando blog.html para leitura contínua..."
 # Geração do feed RSS (com verificação rígida)
 # ============================================================
 echo "📡 Gerando feed RSS..."
-if [ ! -f "./generate_feed.sh" ]; then
-    echo "❌ ERRO: generate_feed.sh não encontrado no diretório atual."
-    exit 1
-fi
-
 ./generate_feed.sh
 
 if [ ! -f "feed.xml" ]; then
