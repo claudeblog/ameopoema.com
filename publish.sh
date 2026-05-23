@@ -45,7 +45,7 @@ else
 fi
 
 echo "📡 Gerando feed RSS..."
-./generate_feed.sh
+./generate-feed.sh
 
 # ============================================================
 # Build e deploy
