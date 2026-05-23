@@ -1,6 +1,4 @@
 # 575 Haicais 237 - Haicai Horizontal  
-
-No  
-Horizonte   
+No horizonte   
 Outra ela outro eu  
 Surgirá no sol  

@@ -1,8 +1,6 @@
 # Textículos - Culpa e resignação  
-
 Perdoe meus destempero, minhas confusões e desesperos.  
 Minha ausência no seu anseio e meus gritos de pedalada.  
-
 Vejo em você um eu que eu não quero repetir, e apesar de aceitar que sua vida é e será sua. É tão duro perceber o quão frágil nós somos e quão pequeno você é meu filho.  
 Peço que perdoe minhas baixas habilidades de pai para um filho de tanta super dotação.  
 Sei que pra você tudo é novo, mas apesar do meu tamanho, apesar de ter a força do "lá" e da alegria do "tukevin".  

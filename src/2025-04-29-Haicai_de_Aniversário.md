@@ -1,7 +1,4 @@
 # 575 Haicais 119 - Haicai de Aniversário  
-
-Bolo  
-Ausente  
+Bolo Ausente  
 Parabéns para você   
-Viver  
-Presente  
+Viver presente  

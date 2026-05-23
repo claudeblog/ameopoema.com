@@ -1,7 +1,4 @@
 # 575 Haicais 159 - Haicai de Valeu  
-
-Como  
-Dorgival  
+Como Dorgival  
 Perto eu não aguento   
-Indassim  
-Valeu  
+Indassim valeu  

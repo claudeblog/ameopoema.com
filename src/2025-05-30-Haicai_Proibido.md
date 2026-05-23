@@ -1,6 +1,4 @@
 # 575 Haicais 150 - Haicai Proibido  
-
-Erro  
-Proibido  
+Erro proibido  
 Permite-se partilhar  
 Eros pra líbido  

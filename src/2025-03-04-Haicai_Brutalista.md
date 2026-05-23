@@ -1,6 +1,4 @@
 # 575 Haicais 63 - Haicai Brutalista  
-
 Minimalismo  
 Materialidade  
-Brutal  
-Concreto  
+Brutal concreto  

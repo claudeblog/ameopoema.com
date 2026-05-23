@@ -1,8 +1,8 @@
 # Haicais de Fios e fé  
-
-Fio de afeto à vistaÉ fio que se fia hojefiado só amanhã  
-Olho-  
-Navalha  
+Fio de afeto à vista  
+É fio que se fia hoje  
+Fiado só amanhã  
+Olho-navalha  
 Fita o laço  
 Inaugura o verso  
 Fio de afeto  

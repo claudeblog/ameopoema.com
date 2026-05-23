@@ -1,6 +1,5 @@
 # 575 Haicais 36 - Haicai Favela  
 
-Sonho  
-Sankofa   
+Sonho sankofa   
 Voltar pegar recontar  
 Cantar meu lugar  

@@ -1,5 +1,4 @@
 # Palindromo:  Ó vovó  
-
 Ó vovó  
 A diva, da vida,  
 A diva, a vadia,aí, dava, Ávida...  

@@ -1,13 +1,9 @@
 # Poemas Palíndromos: Pare Lola descanse  
-
 A  
 Lola:  
-Ela,  
-Fale....  
-Ela,  
-Fale....  
-Era,  
-Pare.  
+Ela, fale....  
+Ela, fale....  
+Era, pare.  
 Pera pare!  
 Anita latina  
 Luz azul  
@@ -18,19 +14,11 @@ Lola dorme...
 Em roda,  
 Lola dorme...   
 Era pare.  
-Pera...   
-Pare  
-Luz azul  
+Pera... Pare  
+Luz azul...  
 Anita latina  
-Era  
-Pare  
+Era Pare  
 Pera.... pare....  
-Ela,  
-Fale....  
-Ela,  
-Fale....Á  
-Lola  
-
-Foto de  
-Dom  
-Gould: https://www.pexels.com/pt-br/foto/vista-traseira-da-silhueta-do-homem-contra-o-ceu-durante-o-por-do-sol-325790/  
+Ela, Fale....  
+Ela, Fale....  
+Á Lola  

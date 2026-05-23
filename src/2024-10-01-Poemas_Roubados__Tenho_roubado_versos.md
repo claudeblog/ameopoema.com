@@ -1,5 +1,4 @@
 # Poemas Roubados: Tenho roubado versos  
-
 Tenho roubado versos  
 É o que tenho feito  
 Raramente os credito,  
@@ -13,7 +12,6 @@ Ou os edito, formulando novas rimas e novos ritmos.
 Tenho recolhido trechos  
 Tenho observado longamente seus formatos  
 Sentindo que o interpretar é irresistível, sentindo como é prazeroso coletar.  
-
 Tenho roubado trechos de jornal,  
 Para que não os esqueça,  
 como minha mãe me ensinou  
@@ -25,14 +23,12 @@ Tenho as rabiscado com minhas próprias mãos
 Golpeando à caneta  
 E tenho passado as noites sentado à mesa de madeira  
 Estudando a troca de letra  
-
 Tenho mastigado os textos  
 Procurando separar na boca  
 A leitura do autor, a autoria do leitor  
 Percebendo na oração  
 Que o sentido é variado  
 O que na escrita era um na leitura vive múltiplo  
-
 Tenho roubado versos  
 Para isso deram-me boca  
 Tenho também re-encontrado rimas que não escolhi  
@@ -41,6 +37,5 @@ Tenho sido descuidado, com os olhos no futuro
 Deixando que os delitos apareçam  
 Eu tenho roubado versos  
 É o que tenho feito  
-
 Versos roubados de:  
 Tenho quebrado copos de Ana Martins Marques  

@@ -1,6 +1,4 @@
 # 575 Haicais 58 - TDAHaicai  
-
-Foco  
-Atenção   
+Foco atenção   
 Criança vida adulta  
 Cadê a chave?  

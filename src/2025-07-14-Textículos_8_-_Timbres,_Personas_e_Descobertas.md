@@ -1,7 +1,5 @@
 # Textículos 8 - Timbres, Personas e Descobertas  
-
 Sobre o amor que temos pelas pessoas que as pessoas nos fazem nos descobrir.  
-
 Metade do que amei em você era quem você é, grande parte porém, também, quem eu me descobri quando perto de ti.  
 A vida tem dessas coisas de nos fornecer experiências profundamentes estéticas vindas do reflexivo cotidiano de nossas fugazes interações.  
 E dessas, sinto profundo afeto.  

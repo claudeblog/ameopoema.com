@@ -1,8 +1,4 @@
 # 575 Haicais 145 - Haicai de ficha  
-
-Bela e  
-Simples  
+Bela e simples  
 Expansiva flexível   
-A  
-Ficha  
-Cai  
+A ficha cai  

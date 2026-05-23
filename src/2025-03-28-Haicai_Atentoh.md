@@ -1,8 +1,4 @@
 # 575 Haicais 87 - Haicai Atentoh  
-
-Concerta  
-Atentah  
+Concerta Atentah  
 Rita ali vem e vai-se  
-Mirta  
-Arrasa  
-Piña  
+Mirta Arrasa Piña  

@@ -1,8 +1,4 @@
 # 575 Haicais 209 - Haicai de Imbróglio  
-
-Ao  
-Locatário   
-A  
-Jurisprudência é  
-Ser  
-Feito otário  
+Ao Locatário   
+A Jurisprudência é  
+Ser Feito otário  

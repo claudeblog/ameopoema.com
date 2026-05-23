@@ -1,6 +1,4 @@
 # 575 Haicais 135 - Haicai de Passagem  
-
-E  
-Passarinhou  
+E passarinhou  
 Passageiro passista  
 Passe de mágica  

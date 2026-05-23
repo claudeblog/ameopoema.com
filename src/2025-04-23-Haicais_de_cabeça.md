@@ -1,6 +1,4 @@
 # 575 Haicais 113 - Haicais de cabeça  
-
-Em sintonia   
+Em sintonía   
 Dentro da minha cabeça  
-Em  
-Neuronía  
+Em Neuronía  

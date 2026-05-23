@@ -1,7 +1,4 @@
 # 575 Haicais 70 - Haicais de Tratamento  
-
-Vossa  
-Excelência   
+Vossa Excelência   
 Crescente iminência   
-De  
-Vossa potência  
+De Vossa potência  

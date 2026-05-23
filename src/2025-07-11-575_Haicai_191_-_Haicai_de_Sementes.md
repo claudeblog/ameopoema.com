@@ -1,9 +1,4 @@
 # 575 Haicai 191 - Haicai de Sementes  
-
-Semente  
-Planta  
-
+Semente planta  
 Água solo tempo sol  
-
-Bolsões de  
-Vida  
+Bolsões de vida  

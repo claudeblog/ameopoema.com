@@ -1,6 +1,4 @@
 # 575 Haicais 127 - Haicai do garoto  
-
 Olho vermelho  
-A  
-Lenda do deserto  
+A lenda do deserto  
 Risada histérica  

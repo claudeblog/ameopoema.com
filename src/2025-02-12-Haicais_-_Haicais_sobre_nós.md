@@ -1,5 +1,4 @@
 # Haicais - Haicais sobre nós  
-
 Nós reduzidos  
 Desatados com corte  
 Não na garganta  

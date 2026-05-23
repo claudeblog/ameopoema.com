@@ -1,5 +1,4 @@
 # Poesias Reencontradas: Falta  
-
 Me faz falta o esquilo vermelho.  
 Os 3 piratas e o doido francês.  
 Me faz falta o rapaz feiticeiro.  
@@ -23,8 +22,7 @@ Me faz falta gostar de escrever.
 Me faz falta o tempo perdido,  
 Me faz falta o doce do mel,  
 Me faz falta o ceifeiro da agua,(a)  
-Inda o  
-Vasco da gama me falta.  
+Inda o Vasco da gama me falta.  
 Me faz muita falta o bom cozinheiro,  
 Me faz falta varar madrugadas  
 Sinto a falta do urso ao vivo,  

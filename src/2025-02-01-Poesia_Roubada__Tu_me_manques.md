@@ -1,10 +1,8 @@
 # Poesia Roubada: Tu me manques  
-
-Poesia  
-Roubada:  
 Tu me manques  
 O todo preso  
-Na ausência de falaÉ cristalino deserto  
+Na ausência de fala  
+É cristalino deserto  
 Com pouca nuance  
 Meu coração sofre  
 Tua palavra ausente  

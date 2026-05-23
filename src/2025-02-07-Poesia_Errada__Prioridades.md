@@ -1,5 +1,4 @@
 # Poesia Errada: Prioridades  
-
 Priorizar:  
 Coragem de assumir para si o que lhe é mais importante.  
 Prioriso o estar  

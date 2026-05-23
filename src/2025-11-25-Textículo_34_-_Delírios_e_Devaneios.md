@@ -1,7 +1,5 @@
-# Textículo 34 - Delírios e Devaneios  
-
+## Textículo 34 - Delírios e Devaneios  
 O destino age sobre o que sabemos.  
-
 Se somos pretensamente livres para fazer o que quisermos, mas apenas podemos querer aquilo que conhecemos.  
 Nosso querer é fruto do nosso conhecimento e das informações que temos no momento em que decidimos querer algo.  
 Uma vez possuídos pelo conhecimento, estamos destinados a decidir desejar ou não desejar, o que quer que desejaríamos, se conhecessemos o que, por então, tornaria-se fruto do nosso desejo.  
@@ -23,8 +21,4 @@ Torna-se unica capaz de alterar o caminho imposto pelo destino.
 Destino ao qual com nossas escolhas nos destinaríamos.  
 Delire-se e delicie-se.  
 Bora viver.  
--  
-Devaneios e delírios inspirados nas series  
-Sandman e  
-Dark da  
-Netflix.  
+Devaneios e delírios inspirados nas series Sandman e Dark da Netflix.  

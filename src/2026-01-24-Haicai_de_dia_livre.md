@@ -2,5 +2,4 @@
 
 Em dia livre  
 Subimos no telhado  
-Doce  
-Sábado  
+Doce sábado  

@@ -1,6 +1,5 @@
 # 575 Haicais 48 - Haicai de Ânsia  
 
-Ser  
-Ansioso  
+Ser ansioso  
 Ao se ver ocioso  
 Sofre Ânsia  

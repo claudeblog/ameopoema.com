@@ -1,6 +1,4 @@
 # 575 Haicais 109 - Haicai Limerente  
-
 Mesmerizante  
-Encanto  
-Hipnose  
+Encanto hipnose  
 Puro fascínio  

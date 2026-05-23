@@ -1,3 +1,4 @@
 # 575 Haicais 151 - Haicai de Melhores Pessoas  
-
-Cinco outonosabraços viram abrigoo dado sorri.  
+Cinco outonos  
+Abraços viram abrigo  
+O dado sorri.  

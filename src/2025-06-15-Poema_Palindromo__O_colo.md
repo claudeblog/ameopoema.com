@@ -1,5 +1,6 @@
 # Poema Palindromo: O colo  
-
-Se o são soa só És som, socos,   
+Se o são soa só É  
+s som, socos,   
 Só cosmos   
+
 Se o são soa só És o loco  

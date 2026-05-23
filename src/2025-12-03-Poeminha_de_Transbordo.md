@@ -1,5 +1,4 @@
 # Poeminha de Transbordo  
-
 Tu me ensinou a compor  
 Entumecido  
 Tu me enseja ao transbordo  

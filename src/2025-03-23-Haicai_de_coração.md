@@ -1,6 +1,4 @@
 # 575 Haicais 82 - Haicai de coração  
-
 Altos e baixos  
-Diástoles  
-Sístoles  
+Diástoles sístoles  
 Sobe desce e vive  

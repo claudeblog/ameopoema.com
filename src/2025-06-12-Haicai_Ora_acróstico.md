@@ -1,6 +1,4 @@
 # 575 Haicais 162 - Haicai Ora acróstico  
-
-Ora  
-Acróstico  
+Ora acróstico  
 Retidos em sentidos  
 Até explodir  

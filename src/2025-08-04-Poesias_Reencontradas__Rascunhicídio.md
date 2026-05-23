@@ -1,5 +1,4 @@
 # Poesias Reencontradas: Rascunhicídio  
-
 Rascunhicídio  
 Os escritos escapam as bordas  
 As idéias esvaem às frestas  
@@ -23,6 +22,4 @@ Desencontrados em lixeira ou cemitério.
 Publicados?  
 Jamais.  
 Apenas rascunhados em sua breve existência.  
-
-Poesia  
-Roubada  
+Poesia Roubada  

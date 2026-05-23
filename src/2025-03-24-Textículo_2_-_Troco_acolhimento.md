@@ -1,5 +1,4 @@
 # Textículo 2 - Troco acolhimento  
-
 Troco acolhimento,  
 Entrego carinho,  
 Recebo alento.  

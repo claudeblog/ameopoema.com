@@ -1,5 +1,4 @@
 # 575 Haicais 288 - Haicai de Coabito  
-
 Era convívio  
 Amar vira evitar  
 E coabitar  

@@ -1,6 +1,4 @@
 # 575 Haicais 198 - Apesar de Você  
-
 Apesar de você  
-Lá como cantou  
-Chico  
+Lá como cantou Chico  
 Hoje é outro dia  

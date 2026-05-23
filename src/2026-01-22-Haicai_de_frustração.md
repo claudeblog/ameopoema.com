@@ -1,5 +1,4 @@
 # 575 Haicais 37 - Haicai de frustração  
-
 Desregulado  
 Mas consciente de si  
 Sabio aos cinco  

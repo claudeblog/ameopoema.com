@@ -1,4 +1,4 @@
 # 575 Haicais 323 - Haicai de programa  
-
-Amarga gramaÀ amargor programa  
+Amarga grama  
+À amargor programa  
 A amarga grama  

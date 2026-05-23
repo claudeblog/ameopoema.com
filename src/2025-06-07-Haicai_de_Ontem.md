@@ -1,6 +1,4 @@
 # 575 Haicais 157 - Haicai de Ontem  
-
-A  
-Nostalgia  
+A nostalgia  
 Saudade de esperança  
 Que tivemos sós  
