@@ -2,6 +2,7 @@
 - [Capa](Capa.md)  
 - [Sobre](Sobre.md)  
 - [Sumário](SUMMARY.md)  
+- [Haicai de acidente](2026-05-25-Haicai_de_acidente.md)  
 - [Haicai de Livro](2026-05-22-Haicai_de_Livro.md)  
 - [Haicai de gole](2026-05-08-Haicai_de_gole.md)  
 - [Textículos Camisetas pretas](2026-05-02-Textículos_Camisetas_pretas.md)  
