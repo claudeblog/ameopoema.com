@@ -3,7 +3,7 @@ Antes de mais nada: se sua casa pegar fogo,
 saia dela imediatamente.  
 
 Largue as chaves, os documentos,  
-o computador, os livros que inspirava reler,  
+o computador, os livros que aspirava reler,  
 as fotografias que guardavam quem você foi.  
 
 Saia.  
