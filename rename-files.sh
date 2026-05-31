@@ -22,8 +22,8 @@ for file in *.md; do
     date="${BASH_REMATCH[1]}"
 
     # Extrai o título (primeira linha que começa com '# ')
-    # O '|| true' evita que o script pare se o grep não encontrar nada
     raw_title=$(grep -m 1 '^# ' "$file" | sed 's/^# //' | sed 's/^[[:space:]]*//' || true)
+
     if [ -z "$raw_title" ]; then
         echo "⚠️  Aviso: $file não contém cabeçalho # Título, pulando."
         continue
@@ -37,9 +37,12 @@ for file in *.md; do
         cleaned_title="$raw_title"
     fi
 
-    # Sanitiza o título para usar no nome do arquivo
-    slug=$(echo "$cleaned_title" | sed 's/[：:，,；;()（）]//g' | tr ' ' '_')
-    slug=$(echo "$slug" | sed 's/_\+/_/g' | sed 's/^_//;s/_$//')
+    # Remove toda pontuação e converte espaços em underscores
+    slug=$(echo "$cleaned_title" |
+        tr -d '[:punct:]' |
+        tr ' ' '_' |
+        sed 's/_\+/_/g' |
+        sed 's/^_//;s/_$//')
 
     newname="${date}-${slug}.md"
 
