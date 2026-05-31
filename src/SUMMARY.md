@@ -2,7 +2,7 @@
 - [Capa](Capa.md)  
 - [Sobre](Sobre.md)  
 - [Sumário](SUMMARY.md)  
-- [Sua casa pegou fogo?](2026-05-27-Sua_casa_pegou_fogo?.md)  
+- [Sua casa pegou fogo?](2026-05-31-Sua_casa_pegou_fogo?.md)  
 - [Haicai detento](2026-05-25-Haicai_detento.md)  
 - [Haicai de prático](2026-05-25-Haicai_de_prático.md)  
 - [Haicai de Conteúdo](2026-05-25-Haicai_de_Conteúdo.md)  
