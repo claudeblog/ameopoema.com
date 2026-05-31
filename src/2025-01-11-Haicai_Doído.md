@@ -3,6 +3,7 @@ O erro corre
 Ódio Dói Rio Doído  
 Erro corre-o  
 * Haicai Palíndromo  
+
 ###### *11/01/2025*  
 &nbsp;<br>​
 &nbsp;<br>​

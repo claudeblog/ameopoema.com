@@ -2,6 +2,7 @@
 Terra brasílis  
 Indiferença vira   
 Desigualdade  
+
 ###### *18/08/2025*  
 &nbsp;<br>​
 &nbsp;<br>​

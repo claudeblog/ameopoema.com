@@ -3,6 +3,7 @@ Em erro corre
 Sal as aéreas alas  
 Erro corre-me  
 * Haicai palíndromo.  
+
 ###### *22/01/2025*  
 &nbsp;<br>​
 &nbsp;<br>​

@@ -6,6 +6,7 @@ Pera lá...
 Ser, e viver  
 Reviveres  
 - Poema palíndromo  
+
 ###### *13/01/2025*  
 &nbsp;<br>​
 &nbsp;<br>​

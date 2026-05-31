@@ -8,6 +8,7 @@ Muito mais sábio era eu na juventude, quando tomava minhas ações como bater d
 Quando escalava o furacão da vida com os meus pés de vento.  
 E dava vida à uma existência eternamente momentânea.  
 Feliz serei se voltar a ser nuvem, ajustando o curso de onde os ventos soprarem.  
+
 ###### *04/08/2025*  
 &nbsp;<br>​
 &nbsp;<br>​

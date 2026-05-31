@@ -2,6 +2,7 @@
 Pensemos sobre  
 Amor e confiança   
 Flexibilidade  
+
 ###### *10/08/2025*  
 &nbsp;<br>​
 &nbsp;<br>​

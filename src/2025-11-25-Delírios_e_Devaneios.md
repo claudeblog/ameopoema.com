@@ -22,6 +22,7 @@ Destino ao qual com nossas escolhas nos destinaríamos.
 Delire-se e delicie-se.  
 Bora viver.  
 Devaneios e delírios inspirados nas series Sandman e Dark da Netflix.  
+
 ###### *25/11/2025*  
 &nbsp;<br>​
 &nbsp;<br>​

@@ -23,6 +23,7 @@ Sua mão quente, a tocar minha mão.
 Entendo agora o que deusa Íris, a mensageira viria a dizer,  
 Nenhum pote de ouro compra,   
 O que a íris do olho não pode ver.  
+
 ###### *31/08/2025*  
 &nbsp;<br>​
 &nbsp;<br>​

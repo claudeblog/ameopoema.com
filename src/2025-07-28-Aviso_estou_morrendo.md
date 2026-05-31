@@ -38,6 +38,7 @@ Veio a mim apenas ao olhar para o mais profundo medo abismal que habita no meu �
 Incidentalmente, a consciência de minha condição terminal, me fez descobrir que vivo.  
 E essa consciência se faz aterrorizantemente bela e motricial.  
 Bora viver.  
+
 ###### *28/07/2025*  
 &nbsp;<br>​
 &nbsp;<br>​
