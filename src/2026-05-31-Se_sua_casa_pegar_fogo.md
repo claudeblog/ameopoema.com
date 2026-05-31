@@ -1,4 +1,4 @@
-# Sua casa pegou fogo ?  
+# Se sua casa pegar fogo  
 Antes de mais nada: se sua casa pegar fogo,  
 saia dela imediatamente.  
 
