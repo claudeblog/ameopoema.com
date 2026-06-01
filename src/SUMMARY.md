@@ -4,6 +4,7 @@
 - [Sobre](Sobre.md)  
 - [Sumário](SUMMARY.md)  
 - [Se sua casa pegar fogo](2026-05-31-Se_sua_casa_pegar_fogo.md)  
+- [Haicai preocupado](2026-05-31-Haicai_preocupado.md)  
 - [Haicai detento](2026-05-25-Haicai_detento.md)  
 - [Haicai de prático](2026-05-25-Haicai_de_prático.md)  
 - [Haicai de Conteúdo](2026-05-25-Haicai_de_Conteúdo.md)  
