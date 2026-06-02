@@ -3,6 +3,7 @@
 - [Capa](Capa.md)  
 - [Sobre](Sobre.md)  
 - [Sumário](SUMMARY.md)  
+- [Haicai desejo](2026-06-02-Haicai_desejo.md)  
 - [Haicai preocupado](2026-06-01-Haicai_preocupado.md)  
 - [Se sua casa pegar fogo](2026-05-31-Se_sua_casa_pegar_fogo.md)  
 - [Haicai detento](2026-05-25-Haicai_detento.md)  
