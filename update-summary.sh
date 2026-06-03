@@ -48,10 +48,10 @@ for file in "${sorted_files[@]}"; do
 done
 
 # Adiciona páginas especiais
-[ -f "src/Capa.md" ] && echo "- [Capa](Capa.md)" >> "$TMP_SUMMARY"
-[ -f "src/Sobre.md" ] && echo "- [Sobre](Sobre.md)" >> "$TMP_SUMMARY"
-
 echo "- [Sumário](SUMMARY.md)" >> "$TMP_SUMMARY"
+
+[ -f "src/Sobre.md" ] && echo "- [Sobre](Sobre.md)" >> "$TMP_SUMMARY"
+[ -f "src/Capa.md" ] && echo "- [Capa](Capa.md)" >> "$TMP_SUMMARY"
 
 # Sobrescreve o conteúdo do arquivo original (sem deletá-lo)
 cat "$TMP_SUMMARY" > "$SUMMARY_FILE"
