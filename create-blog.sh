@@ -22,31 +22,18 @@ perl -i -0pe 's/<script>\s*window\.addEventListener\('"'"'load'"'"',\s*function\
 sed -i 's|</body>|<script>window.print = function() { return false; };</script></body>|' book/blog.html
 
 # ============================================================
-# REMOVER A SEÇÃO DO SUMÁRIO DO blog.html (VERSÃO ROBUSTA)
+# REMOVER TUDO ANTES DA PRIMEIRA QUEBRA DE PÁGINA (inclusive)
+# Isso elimina sumário, capa, e qualquer conteúdo prévio.
 # ============================================================
-echo "📖 Removendo a página de sumário do blog.html..."
+echo "📖 Removendo sumário e cabeçalho do blog.html..."
 
-# Utiliza Perl com padrões flexíveis para remover qualquer variante do sumário
-perl -i -0pe '
-    # 1. Remove sumário com <h1 id="sumário"> ou <h1>Sumário</h1> seguido do conteúdo até a quebra de página
-    s/<h1[^>]*>Sum[áa]rio<\/h1>.*?<div style="break-before: page; page-break-before: always;"><\/div>//gis;
-    
-    # 2. Remove sumário dentro de <nav id="toc"> (tema padrão mdBook)
-    s/<nav id="toc"[^>]*>.*?<\/nav>//gis;
-    
-    # 3. Remove sumário dentro de <div class="sidetoc"> (alguns temas)
-    s/<div class="sidetoc">.*?<\/div>//gis;
-    
-    # 4. Remove qualquer div vazia de quebra de página que tenha ficado
-    s/<div style="break-before: page; page-break-before: always;"><\/div>//gis;
-' book/blog.html
+# Remove desde o início do arquivo até a primeira <div style="break-before: page; ..."></div>
+perl -i -0pe 's/^.*?<div style="break-before: page; page-break-before: always;"><\/div>//s' book/blog.html
 
-# Verifica se ainda há vestígios do sumário (opcional, apenas para debug)
-if grep -qi "sum[áa]rio" book/blog.html; then
-    echo "⚠️  Aviso: Possível resquício do sumário encontrado. Verifique manualmente."
-fi
+# (Opcional) Remove qualquer outra quebra de página que possa ter ficado no início
+sed -i '/<div style="break-before: page; page-break-before: always;"><\/div>/d' book/blog.html
 
-echo "✅ Seção do sumário removida."
+echo "✅ Sumário e cabeçalho removidos. O blog começa diretamente com o primeiro poema."
 
 # ============================================================
 # ADICIONAR BOTÃO "BLOG" EM TODAS AS PÁGINAS
@@ -70,7 +57,7 @@ echo "🔀 Tornando blog.html a página principal..."
 
 if [ -f "book/blog.html" ]; then
     cp book/blog.html book/index.html
-    echo "✅ index.html substituído pelo conteúdo do blog."
+    echo "✅ index.html substituído pelo conteúdo do blog. A raiz agora exibe o blog diretamente."
 else
     echo "❌ blog.html não encontrado para substituir index.html."
 fi
