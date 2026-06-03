@@ -55,7 +55,7 @@ done
 echo "✅ Botão 'Blog' adicionado em todas as páginas (à esquerda do ícone de impressão)."
 
 # ============================================================
-# TORNAR blog.html A PÁGINA PADRÃO (index.html = blog.html)
+# TORNAR blog.html A PÁGINA PADRÃO (substitui index.html pelo conteúdo do blog)
 # ============================================================
 echo "🔀 Tornando blog.html a página principal..."
 
@@ -66,4 +66,4 @@ else
     echo "❌ blog.html não encontrado para substituir index.html."
 fi
 
-echo "🎉 Tudo pronto! O blog é a página inicial do livro."
+echo "🎉 Tudo pronto! O blog agora é a página inicial do livro (index.html)."
