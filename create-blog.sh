@@ -55,26 +55,15 @@ done
 echo "✅ Botão 'Blog' adicionado em todas as páginas (à esquerda do ícone de impressão)."
 
 # ============================================================
-# TORNAR blog.html A PÁGINA PADRÃO (redirecionamento via index.html)
+# TORNAR blog.html A PÁGINA PADRÃO (substitui index.html pelo conteúdo do blog)
 # ============================================================
 echo "🔀 Tornando blog.html a página principal..."
 
-if [ -f "book/index.html" ]; then
-    # Cria um redirecionamento instantâneo (meta refresh)
-    cat > "book/index.html" << 'EOF'
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="refresh" content="0; url=blog.html" />
-</head>
-<body>
-<p>Redirecionando para o <a href="blog.html">Blog</a>…</p>
-</body>
-</html>
-EOF
-    echo "✅ Redirecionamento configurado: index.html -> blog.html"
+if [ -f "book/blog.html" ]; then
+    cp book/blog.html book/index.html
+    echo "✅ index.html substituído pelo conteúdo do blog. A raiz agora exibe o blog diretamente."
 else
-    echo "⚠️ Nenhum index.html encontrado. Verifique se a build foi executada."
+    echo "❌ blog.html não encontrado para substituir index.html."
 fi
 
-echo "🎉 Tudo pronto! Seu blog agora é a página inicial do livro."
+echo "🎉 Tudo pronto! O blog agora é a página inicial do livro (index.html)."
