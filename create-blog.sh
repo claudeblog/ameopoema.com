@@ -35,6 +35,21 @@ sed -i '/<h1>Sum[áa]rio<\/h1>/,/<div style="break-before: page; page-break-befo
 echo "✅ Seção do sumário removida."
 
 # ============================================================
+# ADICIONAR PLAYER DE MÚSICA NO TOPO DO BLOG
+# ============================================================
+echo "🎵 Inserindo trilha sonora no topo da página do blog..."
+
+AUDIO_PLAYER='<audio controls style="width: 100%; margin: 1rem 0;">
+<source src="sigmamusicart-piano-music-504007.mp3" type="audio/mpeg">
+Seu navegador não suporta o player de áudio.
+</audio>'
+
+# Insere o player logo após a tag <body>
+perl -i -0pe 's/(<body[^>]*>)/\1\n'"$AUDIO_PLAYER"'\n/s' book/blog.html
+
+echo "✅ Player de áudio adicionado ao blog.html."
+
+# ============================================================
 # ADICIONAR BOTÃO "BLOG" EM TODAS AS PÁGINAS (à esquerda do ícone de impressão)
 # ============================================================
 echo "🔘 Inserindo botão 'Blog' à esquerda do ícone de impressão..."
@@ -55,15 +70,15 @@ done
 echo "✅ Botão 'Blog' adicionado em todas as páginas (à esquerda do ícone de impressão)."
 
 # ============================================================
-# TORNAR blog.html A PÁGINA PADRÃO (substitui index.html pelo conteúdo do blog)
+# TORNAR blog.html A PÁGINA PADRÃO (index.html = blog.html)
 # ============================================================
 echo "🔀 Tornando blog.html a página principal..."
 
 if [ -f "book/blog.html" ]; then
     cp book/blog.html book/index.html
-    echo "✅ index.html substituído pelo conteúdo do blog. A raiz agora exibe o blog diretamente."
+    echo "✅ index.html substituído pelo conteúdo do blog (já com áudio). A raiz agora exibe o blog diretamente."
 else
     echo "❌ blog.html não encontrado para substituir index.html."
 fi
 
-echo "🎉 Tudo pronto! O blog agora é a página inicial do livro (index.html)."
+echo "🎉 Tudo pronto! O blog com trilha sonora é a página inicial do livro."
