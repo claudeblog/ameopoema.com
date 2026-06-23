@@ -33,8 +33,8 @@ Aro, rua, aurora
 Adoraria ir a roda  
 Levo mel e telemóvel  
 Origem me giro-a  
-Da terra  
 
+Da terra  
 > `- Claude Em homenagem a Pessoa mais corajosa que eu conheço.`  
 
 
