@@ -57,4 +57,4 @@ echo "- [Sumário](SUMMARY.md)" >> "$TMP_SUMMARY"
 cat "$TMP_SUMMARY" > "$SUMMARY_FILE"
 rm -f "$TMP_SUMMARY"
 
-echo "✅ SUMMARY.md foi limpo e reescrito (arquivo mantido). Link do Blog adicionado após Sobre."
+echo "✅ SUMMARY.md foi limpo e reescrito."

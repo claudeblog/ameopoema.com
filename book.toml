@@ -1,8 +1,4 @@
 [book]
-title = "Ameopoema.com"
+title = "ameopoema.com"
 authors = ["Claude"]
-language = "pt-br"
-
-[output.html]
-default-theme = "light"           # Tema inicial (light, dark, rusty, etc.)
-site-url = "/"                    # URL base do seu site
+language = "en"

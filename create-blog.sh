@@ -22,7 +22,7 @@ perl -i -0pe 's/<script>\s*window\.addEventListener\('"'"'load'"'"',\s*function\
 sed -i 's|</body>|<script>window.print = function() { return false; };</script></body>|' book/blog.html
 
 # ============================================================
-# REMOVER A SEÇÃO DO SUMÁRIO DO blog.html (método por linha)
+# REMOVER A SEÇÃO DO SUMÁRIO DO blog.html
 # ============================================================
 echo "📖 Removendo a página de sumário do blog.html..."
 
