@@ -5,15 +5,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 DOMAIN="ameopoema.com"
 
-# ============================================================
-# Renomeia arquivos .md com base no título (cabeçalho #)
-# ============================================================
 echo "🏷️  Renomeando arquivos .md conforme título..."
-if [ -f "./rename-files.sh" ]; then
     ./rename-files.sh
-else
-    echo "⚠️  Aviso: rename-files.sh não encontrado. Pulando renomeação."
-fi
 
 echo "🔄 Atualizando SUMMARY.md..."
 ./update-summary.sh

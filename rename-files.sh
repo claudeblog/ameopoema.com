@@ -47,7 +47,6 @@ for file in *.md; do
     newname="${date}-${slug}.md"
 
     if [ "$file" = "$newname" ]; then
-        echo "✅ $file já está correto."
         continue
     fi
 
@@ -59,5 +58,3 @@ for file in *.md; do
     echo "🔄 Renomeando: $file -> $newname"
     mv -- "$file" "$newname"
 done
-
-echo "🎉 Concluído!"

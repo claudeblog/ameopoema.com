@@ -4,7 +4,7 @@ set -e
 SUMMARY_FILE="src/SUMMARY.md"
 TMP_SUMMARY=$(mktemp)
 
-# Limpa o conteúdo do arquivo (sem remover o arquivo)
+# Limpa o conteúdo do arquivo
 > "$SUMMARY_FILE"
 
 # Gera o novo conteúdo no temporário
@@ -13,16 +13,19 @@ cat > "$TMP_SUMMARY" << 'HEAD'
 
 HEAD
 
-# Lista todos os arquivos .md
+# Lista todos os arquivos .md exceto README|SUMMARY|Sobre|Capa|RSS e Templates
 files=()
 for file in src/*.md; do
     [ -f "$file" ] || continue
     basename=$(basename "$file")
+
     # Ignorar páginas especiais e arquivos que contenham espaços
     [[ "$basename" =~ ^(README|SUMMARY|Sobre|Capa|RSS)\.md$ ]] && continue
     [[ "$basename" =~ \  ]] && { echo "⚠️ Ignorando arquivo com espaço: $basename"; continue; }
-    # Ignorar arquivos que terminam com Template.md (case-sensitive)
+    
+    # Ignorar arquivos que terminam com Template.md 
     [[ "$basename" =~ Template\.md$ ]] && continue
+    
     files+=("$file")
 done
 
@@ -47,7 +50,7 @@ for file in "${sorted_files[@]}"; do
     echo "- [$title]($rel_path)" >> "$TMP_SUMMARY"
 done
 
-# Adiciona páginas especiais
+# Adiciona páginas especiais ao final do Summary
 echo "- [Sumário](SUMMARY.md)" >> "$TMP_SUMMARY"
 
 [ -f "src/Sobre.md" ] && echo "- [Sobre](Sobre.md)" >> "$TMP_SUMMARY"
@@ -57,5 +60,3 @@ echo "- [Sumário](SUMMARY.md)" >> "$TMP_SUMMARY"
 # Sobrescreve o conteúdo do arquivo original (sem deletá-lo)
 cat "$TMP_SUMMARY" > "$SUMMARY_FILE"
 rm -f "$TMP_SUMMARY"
-
-echo "✅ SUMMARY.md foi limpo e reescrito."
