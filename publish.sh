@@ -24,28 +24,7 @@ echo "📅 Corrigindo data nos blocos de citação..."
 echo "✍️ Corrigindo quebras de linha nos arquivos .md..."
 ./fix-line-breaks.sh
 
-
-# ============================================================
-# Geração do feed RSS (com verificação e cópia)
-# ============================================================
-echo "📡 Gerando feed RSS..."
-if [ -f "./generate-feed.sh" ]; then
-    ./generate-feed.sh
-else
-    echo "❌ ERRO: generate-feed.sh não encontrado."
-    exit 1
-fi
-
-# Verifica se o feed foi gerado
-if [ ! -f "feed.xml" ]; then
-    echo "❌ ERRO: generate-feed.sh não criou o arquivo feed.xml."
-    exit 1
-fi
-echo "   ✅ feed.xml gerado com sucesso."
-
-# ============================================================
-# Commit e push das alterações (incluindo renomeações)
-# ============================================================
+echo "📤 Commitando alterações no repositório principal"
 if [ -n "$(git status --porcelain)" ]; then
     echo "📝 Adicionando todas as alterações..."
     git add .
@@ -63,38 +42,22 @@ else
 fi
 
 
-# ============================================================
-# Build do site com mdBook
-# ============================================================
-echo "📚 Construindo o site com mdBook..."
+echo "📚 Construindo o site base com mdBook..."
 rm -rf book/
 mdbook build
 
-# ============================================================
-# Criar blog.html (leitura contínua)
-# ============================================================
 echo "📄 Criando blog.html para leitura contínua..."
-if [ -f "./create-blog.sh" ]; then
-    ./create-blog.sh
-else
-    echo "⚠️  Aviso: create-blog.sh não encontrado. Pulando."
-fi
+./create-blog.sh
 
-# ============================================================
-# Copiar feed.xml e configurar domínio
-# ============================================================
+echo "📡 Gerando feed RSS..."
+./generate-feed.sh
 echo "   Copiando feed.xml para book/..."
 cp feed.xml book/feed.xml
-echo "   ✅ feed.xml copiado para book/"
 
 echo "🌐 Configurando domínio personalizado: $DOMAIN"
 echo "$DOMAIN" > book/CNAME
-# Também cria CNAME na raiz do repositório (para manter consistência)
 echo "$DOMAIN" > CNAME
 
-# ============================================================
-# Deploy para gh-pages
-# ============================================================
 echo "🚀 Publicando para gh-pages..."
 TMP_DIR=$(mktemp -d -t gh-pages-deploy-XXXXXX)
 cp -r book/* "$TMP_DIR/"
@@ -108,15 +71,9 @@ git push origin gh-pages --force
 cd -
 rm -rf "$TMP_DIR"
 
-# ============================================================
-# Finalização
-# ============================================================
-echo "✍️  Gerando template para novo poema (se disponível)..."
-if [ -f "./template.sh" ]; then
-    ./template.sh || true
-else
-    echo "ℹ️  template.sh não encontrado. Pulando."
-fi
 
-echo "✅ Publicação concluída! O domínio $DOMAIN foi persistido."
-echo "   O feed RSS está disponível em: https://$DOMAIN/feed.xml"
+echo "✍️  Gerando templates"
+./template.sh || true
+
+echo "✅ Publicação concluída em: $DOMAIN"
+echo "O feed RSS está disponível em: https://$DOMAIN/feed.xml"
