@@ -117,7 +117,7 @@ for filename in "${files[@]}"; do
     <link>${link}</link>
     <guid isPermaLink="true">${link}</guid>
     <pubDate>${pubdate}</pubDate>
-    <description>&lt;pre&gt;${escaped_content}&lt;/pre&gt;</description>
+    <description><pre style="white-space: pre-wrap; word-wrap: break-word;">${escaped_content}</pre></description>
 ITEMEOF
 
     # Se há áudio, adiciona enclosure e duração
@@ -142,4 +142,4 @@ cat >> "$OUTPUT_FILE" <<EOF
 </rss>
 EOF
 
-echo "Feed gerado em: ${OUTPUT_FILE}"
+cp feed.xml book/feed.xml

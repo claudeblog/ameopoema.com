@@ -19,7 +19,6 @@ echo "✍️ Corrigindo quebras de linha nos arquivos .md..."
 
 echo "📤 Commitando alterações no repositório principal"
 if [ -n "$(git status --porcelain)" ]; then
-    echo "📝 Adicionando todas as alterações..."
     git add .
     commit_date=$(date '+%Y-%m-%d %H:%M:%S')
     changed_files=$(git diff --cached --name-only)
@@ -44,8 +43,6 @@ echo "📄 Criando blog.html para leitura contínua..."
 
 echo "📡 Gerando feed RSS..."
 ./generate-feed.sh
-echo "   Copiando feed.xml para book/..."
-cp feed.xml book/feed.xml
 
 echo "🌐 Configurando domínio personalizado: $DOMAIN"
 echo "$DOMAIN" > book/CNAME
