@@ -46,7 +46,7 @@ RSS_BUTTON='<a href="feed.xml" title="Feed RSS" aria-label="RSS" style="margin-l
 BOTH_BUTTONS="${BLOG_BUTTON}${RSS_BUTTON}"
 
 # Processa todas as páginas HTML na raiz da pasta book (exceto print.html e blog.html)
-find book -maxdepth 1 -name "*.html" ! -name "print.html" ! -name "blog.html" -type f | while read -r page; do
+find book -maxdepth 1 -name "*.html" ! -name "print.html" -type f | while read -r page; do
     # Remove qualquer botão Blog existente
     perl -i -0pe 's|<a href="blog\.html"[^>]*>.*?Blog<\/a>||gs' "$page"
     
