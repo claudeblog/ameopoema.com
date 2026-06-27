@@ -1,5 +1,4 @@
-# Sumário  
-
+# Summary  
 - [Haicai ao Artista](2026-06-22-Haicai_ao_Artista.md)  
 - [Haicai desejo](2026-06-02-Haicai_desejo.md)  
 - [Haicai preocupado](2026-06-01-Haicai_preocupado.md)  
@@ -277,10 +276,10 @@
 - [Haicais do Arvoredo](2024-10-06-Haicais_do_Arvoredo.md)  
 - [Poemas Roubados Tenho roubado versos](2024-10-01-Poemas_Roubados_Tenho_roubado_versos.md)  
 - [Creditos](2024-01-01-Creditos.md)  
-- [Sumário](SUMMARY.md)  
+- [Capa](Capa.md)  
+- [Summary](SUMMARY.md)  
 - [About](About.md)  
 - [RSS Feed](RSS.md)  
-- [Capa](Capa.md)  
 &nbsp;<br>​
 &nbsp;<br>​
 &nbsp;<br>​

@@ -1,45 +1,43 @@
 #!/bin/bash
 set -e
 
-echo "Carregando arquivo env..."
+echo "Loading .env file..."
 set -a
 . .env
 set +a
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
-echo "🏷️  Renomeando arquivos .md conforme título..."
+echo "🏷️ Renaming .md files based on their titles..."
 ./scripts/rename-files.sh
 
-echo "🔄 Atualizando SUMMARY.md..."
+echo "🔄 Updating SUMMARY.md..."
 ./scripts/update-summary.sh
 
-echo "📅 Corrigindo data nos blocos de citação..."
+echo "📅 Fixing dates inside blockquotes..."
 ./scripts/fix-dates.sh
 
-echo "✍️ Corrigindo quebras de linha nos arquivos .md..."
+echo "✍️ Fixing line breaks in .md files..."
 ./scripts/fix-line-breaks.sh
 
-echo "📚 Construindo o site base com mdBook..."
+echo "📚 Building the website with mdBook..."
 rm -rf book/
 mdbook build
 
-echo "📄 Criando blog.html para leitura contínua..."
+echo "📄 Creating blog.html for continuous reading..."
 ./scripts/create-blog.sh
 
-echo "📡 Gerando feed RSS..."
+echo "📡 Generating the RSS feed..."
 ./scripts/generate-feed.sh
 
-echo "🌐 Configurando domínio personalizado: $DOMAIN"
+echo "🌐 Configuring custom domain: $DOMAIN"
 echo "$DOMAIN" > book/CNAME
 echo "$DOMAIN" > CNAME
 
-
-echo "✍️  Gerando templates"
+echo "✍️ Generating templates..."
 ./scripts/template.sh || true
 
-echo "📤 Commitando alterações no repositório principal"
-./scripts/git-push.sh 
+echo "📤 Committing changes to the main repository..."
+./scripts/git-push.sh
 
-
-echo "✅ Publicação concluída em: $DOMAIN"
+echo "✅ Publishing completed: $DOMAIN"

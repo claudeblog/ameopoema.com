@@ -1,41 +1,42 @@
 #!/bin/bash
 set -euo pipefail
 
-# Obtém o diretório onde este script está localizado
+# Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-# Assume que a raiz do projeto é um nível acima (scripts/ fica na raiz)
+
+# Assume the project root is one level above (scripts/ is inside the root)
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
-# Define o diretório de origem (absoluto)
+# Source directory (absolute path)
 SRC_DIR="${PROJECT_ROOT}/src"
 
 if [ ! -d "$SRC_DIR" ]; then
-    echo "❌ Erro: Diretório $SRC_DIR não encontrado."
+    echo "❌ Error: Directory $SRC_DIR not found."
     exit 1
 fi
 
-echo "📂 Processando arquivos em: $SRC_DIR"
+echo "📂 Processing files in: $SRC_DIR"
 cd "$SRC_DIR"
 
 for file in *.md; do
     [ -f "$file" ] || continue
 
-    # Extrai a data do nome (formato YYYY-MM-DD-)
+    # Extract date from filename (YYYY-MM-DD-)
     if [[ ! "$file" =~ ^([0-9]{4}-[0-9]{2}-[0-9]{2})- ]]; then
-        echo "⚠️  Aviso: $file não começa com data YYYY-MM-DD, pulando."
+        echo "⚠️  Warning: $file does not start with YYYY-MM-DD, skipping."
         continue
     fi
     date="${BASH_REMATCH[1]}"
 
-    # Extrai o título (primeira linha que começa com '# ')
+    # Extract title (first line starting with '# ')
     raw_title=$(grep -m 1 '^# ' "$file" | sed 's/^# //' | sed 's/^[[:space:]]*//' || true)
 
     if [ -z "$raw_title" ]; then
-        echo "⚠️  Aviso: $file não contém cabeçalho # Título, pulando."
+        echo "⚠️  Warning: $file has no # Title header, skipping."
         continue
     fi
 
-    # Se o título contiver um hífen, pega apenas a parte após o primeiro hífen
+    # If title contains a hyphen, keep only the part after the first hyphen
     if [[ "$raw_title" == *-* ]]; then
         cleaned_title="${raw_title#*-}"
         cleaned_title="${cleaned_title## }"
@@ -43,7 +44,7 @@ for file in *.md; do
         cleaned_title="$raw_title"
     fi
 
-    # Remove toda pontuação e converte espaços em underscores
+    # Remove punctuation and convert spaces to underscores
     slug=$(echo "$cleaned_title" |
         tr -d '[:punct:]' |
         tr ' ' '_' |
@@ -57,12 +58,13 @@ for file in *.md; do
     fi
 
     if [ -e "$newname" ]; then
-        echo "❌ Erro: $newname já existe, não foi possível renomear $file"
+        echo "❌ Error: $newname already exists, cannot rename $file"
         continue
     fi
 
-    echo "🔄 Renomeando: $file -> $newname"
+    echo "🔄 Renaming: $file -> $newname"
     mv -- "$file" "$newname"
+
 done
 
-echo "✅ Renomeação concluída!"
+echo "✅ Renaming completed!"

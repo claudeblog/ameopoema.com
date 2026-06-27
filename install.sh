@@ -2,22 +2,22 @@
 set -e
 
 # ----------------------------------------------------------------------
-# Verifica se o arquivo .env existe
+# Check whether the .env file exists
 # ----------------------------------------------------------------------
 if [ ! -f .env ]; then
-    echo "❌ Arquivo .env não encontrado. Crie um arquivo .env com as configurações necessárias."
+    echo "❌ .env file not found. Create a .env file with the required configuration."
     exit 1
 fi
 
-echo "📄 Carregando arquivo env..."
+echo "📄 Loading .env file..."
 set -a
 . .env
 set +a
 
 # ----------------------------------------------------------------------
-# Gera o book.toml a partir das variáveis do .env
+# Generate book.toml from the .env variables
 # ----------------------------------------------------------------------
-echo "📝 Gerando book.toml..."
+echo "📝 Generating book.toml..."
 cat > book.toml <<EOF
 [book]
 title = "$BOOK_TITLE"
@@ -29,23 +29,23 @@ default-theme = "$OUTPUT_HTML_DEFAULT_THEME"
 preferred-dark-theme = "$OUTPUT_HTML_PREFERRED_DARK_THEME"
 EOF
 
-echo "✅ book.toml criado com sucesso."
+echo "✅ book.toml created successfully."
 
 # ----------------------------------------------------------------------
-# Instalação dos pré-requisitos
+# Install project prerequisites
 # ----------------------------------------------------------------------
-echo "🔧 Instalando pré-requisitos para o projeto mdBook..."
+echo "🔧 Installing prerequisites for the mdBook project..."
 
-# Detecta distribuição
+# Detect Linux distribution
 if [ -f /etc/os-release ]; then
     . /etc/os-release
     DISTRO=$ID
 else
-    echo "⚠️ Não foi possível detectar a distribuição Linux."
+    echo "⚠️ Unable to detect the Linux distribution."
     exit 1
 fi
 
-# Função para instalar pacotes base
+# Function to install required packages
 install_packages() {
     case "$DISTRO" in
         ubuntu|debian)
@@ -56,7 +56,7 @@ install_packages() {
             sudo dnf install -y git curl @development-tools ffmpeg
             ;;
         *)
-            echo "⚠️ Distribuição não suportada: $DISTRO"
+            echo "⚠️ Unsupported distribution: $DISTRO"
             exit 1
             ;;
     esac
@@ -64,72 +64,69 @@ install_packages() {
 
 install_packages
 
-# Instala Rust se necessário
+# Install Rust if necessary
 if ! command -v rustc &> /dev/null; then
-    echo "🦀 Instalando Rust..."
+    echo "🦀 Installing Rust..."
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 fi
 
-# Carrega Rust/Cargo no shell atual
+# Load Rust/Cargo into the current shell
 if [ -f "$HOME/.cargo/env" ]; then
     source "$HOME/.cargo/env"
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# Instala mdBook
+# Install mdBook
 if ! command -v mdbook &> /dev/null; then
-    echo "📚 Instalando mdBook..."
+    echo "📚 Installing mdBook..."
     cargo install mdbook
 else
-    echo "✅ mdBook já instalado."
+    echo "✅ mdBook is already installed."
 fi
 
-# Adiciona ~/.cargo/bin ao PATH permanentemente
+# Permanently add ~/.cargo/bin to PATH
 if ! grep -q 'export PATH="$HOME/.cargo/bin:$PATH"' ~/.bashrc; then
     echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
-    echo "➕ PATH atualizado no ~/.bashrc"
+    echo "➕ PATH updated in ~/.bashrc"
 fi
 
 # ----------------------------------------------------------------------
-# Dar permissão de execução para todos os scripts .sh existentes
+# Grant execution permission to all existing .sh scripts
 # ----------------------------------------------------------------------
-echo "🔑 Dando permissão de execução para os scripts .sh..."
+echo "🔑 Granting execution permissions to .sh scripts..."
 
-# Lista de scripts esperados (opcional – também pode usar find)
+# List of expected scripts
 scripts=(
-    "fix-dates.sh"
-    "fix-line-breaks.sh"
-    "update-summary.sh"
-    "template.sh"
-    "rename-files.sh"
-    "create-blog.sh"
-    "generate-feed.sh"
-    "git-push.sh"
+    "scripts/fix-dates.sh"
+    "scripts/fix-line-breaks.sh"
+    "scripts/update-summary.sh"
+    "scripts/template.sh"
+    "scripts/rename-files.sh"
+    "scripts/create-blog.sh"
+    "scripts/generate-feed.sh"
+    "scripts/git-push.sh"
+    "publish.sh"
 )
 
 for script in "${scripts[@]}"; do
     if [ -f "$script" ]; then
-        chmod +x "scripts/$script"
+        chmod +x "$script"
         echo "   ✔ $script"
     else
-        echo "   ⚠️ $script não encontrado – ignorado."
+        echo "   ⚠️ $script not found – skipped."
     fi
 done
 
-chmod +x "publish.sh"
-
-
-
 # ----------------------------------------------------------------------
-# Verifica se o comando ffprobe está disponível
+# Check whether ffprobe is available
 # ----------------------------------------------------------------------
 if command -v ffprobe &> /dev/null; then
-    echo "✅ ffprobe instalado – o feed RSS poderá incluir a duração dos áudios."
+    echo "✅ ffprobe is installed – the RSS feed will be able to include audio durations."
 else
-    echo "⚠️ ffprobe não encontrado. A duração dos áudios não será adicionada ao feed."
-    echo "   Tente reiniciar o terminal ou instalar o ffmpeg manualmente."
+    echo "⚠️ ffprobe not found. Audio durations will not be added to the RSS feed."
+    echo "   Try restarting your terminal or installing FFmpeg manually."
 fi
 
-echo "🎉 Instalação concluída!"
-echo "Use ./publish.sh para atualizar SUMMARY.md, corrigir quebras de linha, commitar alterações e publicar o site."
+echo "🎉 Installation complete!"
+echo "Use ./publish.sh to update SUMMARY.md, fix line breaks, commit changes, and publish the site."

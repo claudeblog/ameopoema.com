@@ -1,36 +1,37 @@
 #!/bin/bash
 set -e
 
-# Obtém o diretório onde este script está localizado
+# Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-# Assume que a raiz do projeto é um nível acima (scripts/ fica na raiz)
+
+# Assume the project root is one level above (scripts/ is inside the project root)
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
-# Define os caminhos dos arquivos (relativos à raiz do projeto)
+# Define file paths (relative to the project root)
 BOOK_DIR="${PROJECT_ROOT}/book"
 INPUT_FILE="${BOOK_DIR}/print.html"
 OUTPUT_FILE="${BOOK_DIR}/blog.html"
 
-echo "📄 Criando blog.html a partir do print.html..."
+echo "📄 Creating blog.html from print.html..."
 cp "$INPUT_FILE" "$OUTPUT_FILE"
 
-# Remove script de impressão automática (bloco <script>)
-echo "🧹 Removendo scripts automáticos de impressão..."
+# Remove the automatic print script block
+echo "🧹 Removing automatic print scripts..."
 sed -i '/<script>/,/<\/script>/ {
     /window\.print/d
     /window.addEventListener/d
     /window.setTimeout/d
 }' "$OUTPUT_FILE"
 
-# Remove um trecho específico com perl (caso o sed acima não tenha capturado tudo)
+# Remove a specific script block with Perl (in case sed doesn't catch everything)
 perl -i -0pe 's/<script>\s*window\.addEventListener\('"'"'load'"'"',\s*function\(\s*\)\s*\{\s*window\.setTimeout\(window\.print,\s*100\s*\);\s*\}\s*\);\s*<\/script>//gis' "$OUTPUT_FILE"
 
-# Substitui </body> por um script que anula window.print
+# Replace the print script with one that disables window.print
 sed -i 's|</body>|<script>window.print = function() { return false; };</script></body>|' "$OUTPUT_FILE"
 
-# REMOVER A SEÇÃO DO SUMÁRIO DO blog.html
-echo "📖 Removendo a página de sumário do blog.html..."
-sed -i '/<h1 id="sum[áa]rio">/,/<div style="break-before: page; page-break-before: always;"><\/div>/d' "$OUTPUT_FILE"
-sed -i '/<h1>Sum[áa]rio<\/h1>/,/<div style="break-before: page; page-break-before: always;"><\/div>/d' "$OUTPUT_FILE"
+# Remove the table of contents section from blog.html
+echo "📖 Removing the table of contents page from blog.html..."
+sed -i '/<h1 id="summary">/,/<div style="break-before: page; page-break-before: always;"><\/div>/d' "$OUTPUT_FILE"
+sed -i '/<h1>Summary<\/h1>/,/<div style="break-before: page; page-break-before: always;"><\/div>/d' "$OUTPUT_FILE"
 
-echo "✅ Pronto! O arquivo foi gerado em ${OUTPUT_FILE}"
+echo "✅ Done! The file has been generated at ${OUTPUT_FILE}"

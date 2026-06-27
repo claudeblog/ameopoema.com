@@ -1,41 +1,41 @@
 #!/bin/bash
 set -euo pipefail
 
-# Obtém o diretório onde este script está localizado
+# Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-# Assume que a raiz do projeto é um nível acima (scripts/ fica na raiz)
+
+# Assume the project root is one level above (scripts/ is inside the root)
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
-echo "📚 Gerando SUMARY.md em: $PROJECT_ROOT/src"
+echo "📚 Generating SUMMARY.md at: $PROJECT_ROOT/src"
 
-# Navega para a raiz para que os caminhos relativos funcionem
+# Move to project root so relative paths work
 cd "$PROJECT_ROOT"
 
 SUMMARY_FILE="src/SUMMARY.md"
 TMP_SUMMARY=$(mktemp)
 
-# Limpa o conteúdo do arquivo (será sobrescrito depois)
+# Clear file (will be overwritten)
 > "$SUMMARY_FILE"
 
-# Gera o novo conteúdo no temporário
+# Header
 cat > "$TMP_SUMMARY" << 'HEAD'
-# Sumário
-
+# Summary
 HEAD
 
-# Lista todos os arquivos .md exceto README|SUMMARY|About|Capa|RSS e Templates
+# Collect markdown files excluding special ones
 files=()
 for file in src/*.md; do
     [ -f "$file" ] || continue
     basename=$(basename "$file")
 
-    # Ignorar páginas especiais e arquivos que contenham espaços
-    [[ "$basename" =~ ^(README|SUMMARY|About|Capa|RSS)\.md$ ]] && continue
-    [[ "$basename" =~ \  ]] && { echo "⚠️ Ignorando arquivo com espaço: $basename"; continue; }
-    
-    # Ignorar arquivos que terminam com Template.md 
+    # Ignore special pages and files with spaces
+    [[ "$basename" =~ ^(README|SUMMARY|About|Cover|RSS)\.md$ ]] && continue
+    [[ "$basename" =~ \  ]] && { echo "⚠️ Skipping file with space: $basename"; continue; }
+
+    # Ignore templates
     [[ "$basename" =~ Template\.md$ ]] && continue
-    
+
     files+=("$file")
 done
 
@@ -50,25 +50,28 @@ done | sort -r | awk '{print $2}'))
 
 for file in "${sorted_files[@]}"; do
     basename=$(basename "$file" .md)
+
     if [[ "$basename" =~ ^([0-9]{4}-[0-9]{2}-[0-9]{2})-(.*)$ ]]; then
         title_part="${BASH_REMATCH[2]}"
     else
         title_part="$basename"
     fi
-    title=$(echo "$title_part" | sed 's/_/ /g; s/-/ /g; s/  */ /g')
+
+    title=$(echo "$title_part" | sed 's/_/ /g; s/-/ /g; s/ +/ /g')
     rel_path=$(echo "$file" | sed 's|src/||')
+
     echo "- [$title]($rel_path)" >> "$TMP_SUMMARY"
 done
 
-# Adiciona páginas especiais ao final do Summary
-echo "- [Sumário](SUMMARY.md)" >> "$TMP_SUMMARY"
+# Add special pages at the end
+echo "- [Summary](SUMMARY.md)" >> "$TMP_SUMMARY"
 
 [ -f "src/About.md" ] && echo "- [About](About.md)" >> "$TMP_SUMMARY"
 [ -f "src/RSS.md" ] && echo "- [RSS Feed](RSS.md)" >> "$TMP_SUMMARY"
-[ -f "src/Capa.md" ] && echo "- [Capa](Capa.md)" >> "$TMP_SUMMARY"
+[ -f "src/Cover.md" ] && echo "- [Cover](Cover.md)" >> "$TMP_SUMMARY"
 
-# Sobrescreve o conteúdo do arquivo original (sem deletá-lo)
+# Write final file
 cat "$TMP_SUMMARY" > "$SUMMARY_FILE"
 rm -f "$TMP_SUMMARY"
 
-echo "✅ SUMMARY.md gerado com sucesso!"
+echo "✅ SUMMARY.md generated successfully!"
