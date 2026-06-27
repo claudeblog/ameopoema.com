@@ -5,4 +5,3 @@ language = "pt-br"
 
 [output.html]
 default-theme = "light"
-site-url = "/"
