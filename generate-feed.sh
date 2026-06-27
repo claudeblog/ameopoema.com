@@ -143,3 +143,29 @@ cat >> "$OUTPUT_FILE" <<EOF
 EOF
 
 echo "Feed gerado em: ${OUTPUT_FILE}"
+
+# ============================================================
+# ADICIONAR BOTÃO "RSS" EM TODAS AS PÁGINAS DO MDBOOK
+# ============================================================
+echo "🔘 Inserindo botão 'RSS' ao lado do 'Blog'..."
+
+# Verifica se a pasta book existe
+if [ ! -d "$SCRIPT_DIR/book" ]; then
+    echo "⚠️  Pasta 'book' não encontrada. Execute 'mdbook build' primeiro."
+    exit 0
+fi
+
+RSS_BUTTON='<a href="https://ameopoema.com/feed" title="Feed RSS" aria-label="Feed RSS" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">RSS</a>'
+
+# Processa todas as páginas HTML na raiz da pasta book (exceto print.html e blog.html)
+find "$SCRIPT_DIR/book" -maxdepth 1 -name "*.html" ! -name "print.html" ! -name "blog.html" -type f | while read -r page; do
+    # Remove qualquer botão RSS existente
+    perl -i -0pe 's|<a href="https://ameopoema\.com/feed"[^>]*>.*?RSS<\/a>||gs' "$page"
+    
+    # Insere o botão dentro da div .right-buttons, antes do link de impressão
+    perl -i -0pe 's|(<div class="right-buttons">)(.*?)(<a href="print\.html")|\1'"$RSS_BUTTON"'\2\3|s' "$page"
+    
+    echo "   ✅ Botão RSS inserido em: $(basename "$page")"
+done
+
+echo "✅ Botão 'RSS' adicionado em todas as páginas (ao lado do 'Blog')."
