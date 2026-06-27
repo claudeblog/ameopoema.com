@@ -1,14 +1,20 @@
 #!/bin/bash
-
 set -euo pipefail
 
-SRC_DIR="./src"
+# Obtém o diretório onde este script está localizado
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Assume que a raiz do projeto é um nível acima (scripts/ fica na raiz)
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Define o diretório de origem (absoluto)
+SRC_DIR="${PROJECT_ROOT}/src"
 
 if [ ! -d "$SRC_DIR" ]; then
     echo "❌ Erro: Diretório $SRC_DIR não encontrado."
     exit 1
 fi
 
+echo "📂 Processando arquivos em: $SRC_DIR"
 cd "$SRC_DIR"
 
 for file in *.md; do
@@ -58,3 +64,5 @@ for file in *.md; do
     echo "🔄 Renomeando: $file -> $newname"
     mv -- "$file" "$newname"
 done
+
+echo "✅ Renomeação concluída!"

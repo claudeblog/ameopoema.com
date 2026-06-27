@@ -1,10 +1,20 @@
 #!/bin/bash
-set -e
+set -euo pipefail
+
+# Obtém o diretório onde este script está localizado
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Assume que a raiz do projeto é um nível acima (scripts/ fica na raiz)
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+echo "📚 Gerando SUMARY.md em: $PROJECT_ROOT/src"
+
+# Navega para a raiz para que os caminhos relativos funcionem
+cd "$PROJECT_ROOT"
 
 SUMMARY_FILE="src/SUMMARY.md"
 TMP_SUMMARY=$(mktemp)
 
-# Limpa o conteúdo do arquivo
+# Limpa o conteúdo do arquivo (será sobrescrito depois)
 > "$SUMMARY_FILE"
 
 # Gera o novo conteúdo no temporário
@@ -60,3 +70,5 @@ echo "- [Sumário](SUMMARY.md)" >> "$TMP_SUMMARY"
 # Sobrescreve o conteúdo do arquivo original (sem deletá-lo)
 cat "$TMP_SUMMARY" > "$SUMMARY_FILE"
 rm -f "$TMP_SUMMARY"
+
+echo "✅ SUMMARY.md gerado com sucesso!"

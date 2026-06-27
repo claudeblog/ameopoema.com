@@ -1,9 +1,24 @@
 #!/bin/bash
+set -e
 
-# Diretórios
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-SRC_DIR="$SCRIPT_DIR/src"
-OUTPUT_FILE="$SCRIPT_DIR/src/feed.xml"
+# Obtém o diretório onde este script está localizado
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Assume que a raiz do projeto é um nível acima (scripts/ fica na raiz)
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Define diretórios (absolutos)
+SRC_DIR="${PROJECT_ROOT}/src"
+BOOK_DIR="${PROJECT_ROOT}/book"
+OUTPUT_FILE="${SRC_DIR}/feed.xml"
+
+# Variáveis de configuração (podem ser sobrescritas pelo ambiente)
+FEED_TITLE="${FEED_TITLE:-Meu Podcast}"
+SITE_URL="${SITE_URL:-https://meusite.com}"
+FEED_DESCRIPTION="${FEED_DESCRIPTION:-Um podcast incrível}"
+
+echo "📡 Gerando feed RSS em: $OUTPUT_FILE"
+echo "   Título: $FEED_TITLE"
+echo "   URL: $SITE_URL"
 
 # Extensões de áudio suportadas (ordem de preferência)
 AUDIO_EXTS=("mp3" "m4a" "ogg" "wav")
@@ -51,6 +66,8 @@ done < <(find "$SRC_DIR" -maxdepth 1 -type f -name '*.md' ! -name 'SUMMARY.md' -
 # Ordena os arquivos em ordem alfabética decrescente (mais recentes primeiro)
 IFS=$'\n' files=($(sort -r <<<"${files[*]}"))
 unset IFS
+
+echo "📄 Encontrados ${#files[@]} posts para incluir no feed."
 
 # Para cada arquivo, gera um <item>
 for filename in "${files[@]}"; do
@@ -138,4 +155,8 @@ cat >> "$OUTPUT_FILE" <<EOF
 </rss>
 EOF
 
-cp src/feed.xml book/feed.xml
+# Copia o feed para a pasta book/ (para publicação)
+echo "📁 Copiando feed para ${BOOK_DIR}/feed.xml"
+cp "$OUTPUT_FILE" "${BOOK_DIR}/feed.xml"
+
+echo "✅ Feed gerado com sucesso em: $OUTPUT_FILE"

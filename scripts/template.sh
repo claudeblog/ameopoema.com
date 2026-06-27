@@ -1,11 +1,22 @@
 #!/bin/bash
+set -euo pipefail
 
+# Obtém o diretório onde este script está localizado
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Assume que a raiz do projeto é um nível acima (scripts/ fica na raiz)
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
+# Define o diretório de destino (absoluto)
+SRC_DIR="${PROJECT_ROOT}/src"
+
+# Data atual no formato YYYY-MM-DD
 DATA=$(date +%Y-%m-%d)
+FILENAME="${SRC_DIR}/${DATA}-Template.md"
 
-FILENAME="src/${DATA}-Template.md"
+echo "📝 Criando novo template em: $FILENAME"
 
-read -r -d '' CONTEUDO << EOF
+# Conteúdo do template
+read -r -d '' CONTEUDO << EOF || true
 # Template
 
 Lorem ipsum dolor sit amet, 
@@ -30,6 +41,7 @@ EOF
 
 # Verifica se o arquivo já existe
 if [ -e "$FILENAME" ]; then
+    echo "❌ Erro: O arquivo $FILENAME já existe."
     exit 1
 fi
 
@@ -37,4 +49,4 @@ fi
 echo "$CONTEUDO" > "$FILENAME"
 
 # Confirmação
-echo "Template criado com sucesso: $FILENAME"
+echo "✅ Template criado com sucesso: $FILENAME"

@@ -1,7 +1,15 @@
 #!/bin/bash
+set -e
 
-# Pasta onde estão os arquivos .md
-TARGET_DIR="./src"
+# Obtém o diretório onde este script está localizado
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Assume que a raiz do projeto é um nível acima (scripts/ fica na raiz)
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Pasta onde estão os arquivos .md (agora usando caminho absoluto)
+TARGET_DIR="${PROJECT_ROOT}/src"
+
+echo "📂 Processando arquivos .md em ${TARGET_DIR}..."
 
 find "$TARGET_DIR" -maxdepth 1 -type f -name "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.md" | while read -r file; do
     filename=$(basename "$file")
@@ -14,6 +22,8 @@ find "$TARGET_DIR" -maxdepth 1 -type f -name "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0
     formatted_date="$day/$month/$year"
 
     tmp_file=$(mktemp)
+
+    echo "   Processando: $filename -> data $formatted_date"
 
     awk -v newdate="$formatted_date" '
     # Remove qualquer linha que seja exatamente "###### *DD/MM/AAAA*" (com espaços opcionais no final)
@@ -37,3 +47,5 @@ find "$TARGET_DIR" -maxdepth 1 -type f -name "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0
 
     mv "$tmp_file" "$file"
 done
+
+echo "✅ Concluído!"

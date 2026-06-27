@@ -100,7 +100,6 @@ echo "🔑 Dando permissão de execução para os scripts .sh..."
 scripts=(
     "fix-dates.sh"
     "fix-line-breaks.sh"
-    "publish.sh"
     "update-summary.sh"
     "template.sh"
     "rename-files.sh"
@@ -111,12 +110,16 @@ scripts=(
 
 for script in "${scripts[@]}"; do
     if [ -f "$script" ]; then
-        chmod +x "$script"
+        chmod +x "scripts/$script"
         echo "   ✔ $script"
     else
         echo "   ⚠️ $script não encontrado – ignorado."
     fi
 done
+
+chmod +x "publish.sh"
+
+
 
 # ----------------------------------------------------------------------
 # Verifica se o comando ffprobe está disponível
