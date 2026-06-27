@@ -3,7 +3,7 @@
 # Diretórios
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SRC_DIR="$SCRIPT_DIR/src"
-OUTPUT_FILE="$SCRIPT_DIR/feed.xml"
+OUTPUT_FILE="$SCRIPT_DIR/src/feed.xml"
 
 # Extensões de áudio suportadas (ordem de preferência)
 AUDIO_EXTS=("mp3" "m4a" "ogg" "wav")
@@ -138,4 +138,4 @@ cat >> "$OUTPUT_FILE" <<EOF
 </rss>
 EOF
 
-cp feed.xml book/feed.xml
+cp src/feed.xml book/feed.xml
