@@ -32,7 +32,7 @@ echo "$DOMAIN" > book/CNAME
 echo "$DOMAIN" > CNAME
 
 echo "📤 Commitando alterações no repositório principal"
-./push.sh 
+./git-push.sh 
 
 echo "✍️  Gerando templates"
 ./template.sh || true

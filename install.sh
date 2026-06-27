@@ -73,7 +73,7 @@ scripts=(
     "rename-files.sh"
     "create-blog.sh"
     "generate-feed.sh"
-    "push.sh"
+    "git-push.sh"
 )
 
 for script in "${scripts[@]}"; do
