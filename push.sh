@@ -1,12 +1,6 @@
 #!/bin/bash
 set -e
 
-DOMAIN="ameopoema.com"
-
-echo "🌐 Configurando domínio personalizado: $DOMAIN"
-echo "$DOMAIN" > book/CNAME
-echo "$DOMAIN" > CNAME
-
 echo "📤 Commitando alterações no repositório principal"
 if [ -n "$(git status --porcelain)" ]; then
     git add .
