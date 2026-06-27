@@ -322,6 +322,9 @@ no `.env` e execute novamente:
 ```  
 
 ---  
+
+
+FavIcon by: <a href="https://www.flaticon.com/free-icons/poetry" title="poetry icons">Poetry icons created by Iconsea - Flaticon</a>  
 &nbsp;<br>​
 &nbsp;<br>​
 &nbsp;<br>​
