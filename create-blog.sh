@@ -41,9 +41,10 @@ echo "🔘 Inserindo botão 'Blog' à esquerda do ícone de impressão..."
 
 BLOG_BUTTON='<a href="blog.html" title="Ver todos os poemas" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Blog</a>'
 RSS_BUTTON='<a href="feed.xml" title="Feed RSS" aria-label="RSS" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">RSS</a>'
+ABOUT_BUTTON='<a href="Sobre.html" title="About" aria-label="About" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">SOBRE</a>'
 
 # Combina os dois botões (a ordem define qual aparece primeiro)
-BOTH_BUTTONS="${BLOG_BUTTON}${RSS_BUTTON}"
+BOTH_BUTTONS="${BLOG_BUTTON}${RSS_BUTTON}${ABOUT_BUTTON}"
 
 # Processa todas as páginas HTML na raiz da pasta book (exceto print.html e blog.html)
 find book -maxdepth 1 -name "*.html" -type f | while read -r page; do
