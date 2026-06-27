@@ -1,6 +1,6 @@
 # RSS Feed  
 
-  Este site em um feed que você pode adicionar ao seu agregador e receber em primeira mão atualizações: Ameopoema.com/feed.xml  
+  Este site em um feed que você pode adicionar ao seu agregador e receber em primeira mão atualizações: Ameopoema.com/feed  
 
 &nbsp;<br>​
 &nbsp;<br>​
