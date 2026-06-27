@@ -5,3 +5,4 @@ language = "pt-br"
 
 [output.html]
 default-theme = "light"
+preferred-dark-theme = "light"

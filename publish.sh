@@ -1,9 +1,12 @@
 #!/bin/bash
 set -e
 
-export PATH="$HOME/.cargo/bin:$PATH"
+echo "Carregando arquivo env..."
+set -a
+. .env
+set +a
 
-DOMAIN="ameopoema.com"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 echo "🏷️  Renomeando arquivos .md conforme título..."
     ./rename-files.sh

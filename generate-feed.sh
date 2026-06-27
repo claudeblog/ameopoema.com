@@ -1,8 +1,4 @@
 #!/bin/bash
-# ================= CONFIGURAÇÕES =================
-SITE_URL="https://ameopoema.com"
-FEED_TITLE="Ame o Poema"
-FEED_DESCRIPTION="Poesias do Nuvem, Poemas, Palindromos e Haicais, talvez um podcast em algum momento"
 
 # Diretórios
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
