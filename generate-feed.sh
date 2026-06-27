@@ -82,7 +82,7 @@ for filename in "${files[@]}"; do
     # Link para o HTML
     link="${SITE_URL}/${base}.html"
 
-    # Conteúdo do poema (limpo)
+    # Conteúdo do post
     filtered_content=$(sed -e '1{/^# /d}' -e '/^######/d' -e '/&nbsp;<br>/d' -e '/^[[:space:]]*$/d' "$filepath")
     escaped_content=$(echo "$filtered_content" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g')
 
