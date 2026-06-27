@@ -324,7 +324,8 @@ no `.env` e execute novamente:
 ---  
 
 
-FavIcon by: <a href="https://www.flaticon.com/free-icons/poetry" title="poetry icons">Poetry icons created by Iconsea - Flaticon</a>  
+FavIcon by: <a href="https://www.favicon.cc/?action=icon_list&user_id=267435" title="blue feather">blue feather by sande570 </a>  
+
 &nbsp;<br>​
 &nbsp;<br>​
 &nbsp;<br>​
