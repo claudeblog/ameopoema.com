@@ -1,6 +1,6 @@
 # Meu Blog com mdBook  
 
-Bem-vindo ao repositório do **Nefelibata** – um blog estático gerado a partir de arquivos Markdown utilizando o **mdBook**.  
+Bem-vindo ao repositório do **ameopoema.com** – um blog estático gerado a partir de arquivos Markdown utilizando o **mdBook**.  
 
 O projeto é totalmente automatizado: com um único comando você instala dependências, gera o site, cria o feed RSS, configura um domínio personalizado e publica no GitHub Pages (branch `gh-pages`).  
 
@@ -36,8 +36,8 @@ O projeto é totalmente automatizado: com um único comando você instala depend
 ## 1. Clone o repositório  
 
 ```bash  
-git clone https://github.com/claudeblog/nefelibata.git  
-cd nefelibata  
+git clone https://github.com/claudeblog/ameopoema.com.git  
+cd ameopoema.com  
 ```  
 
 ## 2. Crie o arquivo `.env`  
