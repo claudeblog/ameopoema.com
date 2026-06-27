@@ -1,0 +1,526 @@
+<!DOCTYPE HTML>
+<html lang="pt-br" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Summary - Ameopoema.com</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-2ee2e718.svg">
+        <link rel="shortcut icon" href="favicon-2ee2e718.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-0392ca55.css">
+        <link rel="stylesheet" href="css/chrome-fc474251.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "light";
+            window.path_to_searchindex_js = "searchindex-9e0de528.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-a0c018b0.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ameopoema.com</h1>
+
+                    <div class="right-buttons">
+                        <a href="blog.html" title="Blog" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Blog</a>
+                        <a href="About.html" title="About" aria-label="About" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Sobre</a>
+                        <a href="RSS.html" title="RSS" aria-label="RSS" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">RSS</a>
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="summary"><a class="header" href="#summary">Summary</a></h1>
+<ul>
+<li><a href="2026-06-22-Haicai_ao_Artista.html">Haicai ao Artista</a></li>
+<li><a href="2026-06-02-Haicai_desejo.html">Haicai desejo</a></li>
+<li><a href="2026-06-01-Haicai_preocupado.html">Haicai preocupado</a></li>
+<li><a href="2026-05-31-Se_sua_casa_pegar_fogo.html">Se sua casa pegar fogo</a></li>
+<li><a href="2026-05-25-Haicai_detento.html">Haicai detento</a></li>
+<li><a href="2026-05-25-Haicai_de_prático.html">Haicai de prático</a></li>
+<li><a href="2026-05-25-Haicai_de_Conteúdo.html">Haicai de Conteúdo</a></li>
+<li><a href="2026-05-25-Haicai_de_Bet.html">Haicai de Bet</a></li>
+<li><a href="2026-05-25-Haicai_de_acidente.html">Haicai de acidente</a></li>
+<li><a href="2026-05-22-Haicai_de_Livro.html">Haicai de Livro</a></li>
+<li><a href="2026-05-08-Haicai_de_gole.html">Haicai de gole</a></li>
+<li><a href="2026-05-02-Textículos_Camisetas_pretas.html">Textículos Camisetas pretas</a></li>
+<li><a href="2026-04-27-Haicai_me_leve.html">Haicai me leve</a></li>
+<li><a href="2026-04-27-Haicai_Malescrito.html">Haicai Malescrito</a></li>
+<li><a href="2026-04-27-Haicai_de_jogos.html">Haicai de jogos</a></li>
+<li><a href="2026-04-26-Haicai_de_amigos.html">Haicai de amigos</a></li>
+<li><a href="2026-04-20-Haicaiu_o_PIB.html">Haicaiu o PIB</a></li>
+<li><a href="2026-04-20-Haicai_de_PIB.html">Haicai de PIB</a></li>
+<li><a href="2026-02-21-Haicai_de_espera.html">Haicai de espera</a></li>
+<li><a href="2026-02-21-Haicai_de_Ânsia.html">Haicai de Ânsia</a></li>
+<li><a href="2026-02-09-Texticulos_Descalços_fazendo_o_caminho.html">Texticulos Descalços fazendo o caminho</a></li>
+<li><a href="2026-02-09-Haicai_Destóico.html">Haicai Destóico</a></li>
+<li><a href="2026-02-09-Haicai_de_maratona.html">Haicai de maratona</a></li>
+<li><a href="2026-02-09-Haicai_de_Decalque.html">Haicai de Decalque</a></li>
+<li><a href="2026-02-07-Haicai_de_Desencontro.html">Haicai de Desencontro</a></li>
+<li><a href="2026-02-07-Culpa_e_resignação.html">Culpa e resignação</a></li>
+<li><a href="2026-02-03-Haicai_Fora_do_ar.html">Haicai Fora do ar</a></li>
+<li><a href="2026-01-29-Haicai_Nefelibata.html">Haicai Nefelibata</a></li>
+<li><a href="2026-01-25-Haicai_de_rodeio.html">Haicai de rodeio</a></li>
+<li><a href="2026-01-24-Haicai_de_dia_livre.html">Haicai de dia livre</a></li>
+<li><a href="2026-01-22-Haicai_de_frustração.html">Haicai de frustração</a></li>
+<li><a href="2026-01-18-Haicai_Favela.html">Haicai Favela</a></li>
+<li><a href="2026-01-12-Haicai_dispoente.html">Haicai dispoente</a></li>
+<li><a href="2026-01-11-Haicai_de_Equilíbrio.html">Haicai de Equilíbrio</a></li>
+<li><a href="2026-01-10-Poesias_Hombridade_Solo.html">Poesias Hombridade Solo</a></li>
+<li><a href="2026-01-08-Haicai_de_veto.html">Haicai de veto</a></li>
+<li><a href="2026-01-05-Textículo_55_Transfuga_de_Classe_Mudança_e_Caminhos.html">Textículo 55 Transfuga de Classe Mudança e Caminhos</a></li>
+<li><a href="2026-01-03-Haicai_Revitalizar.html">Haicai Revitalizar</a></li>
+<li><a href="2026-01-02-Haicai_de_Acesso.html">Haicai de Acesso</a></li>
+<li><a href="2026-01-01-Haicai_Sankofa.html">Haicai Sankofa</a></li>
+<li><a href="2025-12-31-Haicai_de_fim.html">Haicai de fim</a></li>
+<li><a href="2025-12-29-Haicai_Á_vó_nova.html">Haicai Á vó nova</a></li>
+<li><a href="2025-12-26-Haicai_Circular.html">Haicai Circular</a></li>
+<li><a href="2025-12-25-Haicai_de_partilha.html">Haicai de partilha</a></li>
+<li><a href="2025-12-24-Haicai_de_Rigidez.html">Haicai de Rigidez</a></li>
+<li><a href="2025-12-23-Haicai_Recontinuar.html">Haicai Recontinuar</a></li>
+<li><a href="2025-12-17-Haicai_Hiperativo.html">Haicai Hiperativo</a></li>
+<li><a href="2025-12-13-Haicai_Aos_Sábados.html">Haicai Aos Sábados</a></li>
+<li><a href="2025-12-03-Poeminha_de_Transbordo.html">Poeminha de Transbordo</a></li>
+<li><a href="2025-12-03-Ame_Ó_Poesia.html">Ame Ó Poesia</a></li>
+<li><a href="2025-11-25-Delírios_e_Devaneios.html">Delírios e Devaneios</a></li>
+<li><a href="2025-11-19-Haicai_de_programa.html">Haicai de programa</a></li>
+<li><a href="2025-11-15-Haicai_Distraído.html">Haicai Distraído</a></li>
+<li><a href="2025-11-05-Haicai_em_Chiaroscuro.html">Haicai em Chiaroscuro</a></li>
+<li><a href="2025-11-04-Haïku_Impressionniste.html">Haïku Impressionniste</a></li>
+<li><a href="2025-10-22-Hoje_fui_contornado_por_um_arco_Iris.html">Hoje fui contornado por um arco Iris</a></li>
+<li><a href="2025-10-21-Haicai_tampouco.html">Haicai tampouco</a></li>
+<li><a href="2025-10-18-Haicai_de_Pai.html">Haicai de Pai</a></li>
+<li><a href="2025-10-16-Haicai_de_Coabito.html">Haicai de Coabito</a></li>
+<li><a href="2025-10-15-Haicai_de_Faxina.html">Haicai de Faxina</a></li>
+<li><a href="2025-10-14-Haicai_de_recursos_humanos.html">Haicai de recursos humanos</a></li>
+<li><a href="2025-10-04-Haicai_de_Fome.html">Haicai de Fome</a></li>
+<li><a href="2025-10-02-Haicai_Compensatório.html">Haicai Compensatório</a></li>
+<li><a href="2025-09-30-Haicai_de_Paradeiro.html">Haicai de Paradeiro</a></li>
+<li><a href="2025-09-29-Haicai_Geracional.html">Haicai Geracional</a></li>
+<li><a href="2025-09-28-Haicai_de_Parabéns.html">Haicai de Parabéns</a></li>
+<li><a href="2025-09-17-Haicai_de_Skank.html">Haicai de Skank</a></li>
+<li><a href="2025-09-16-Haicai_de_Burnout.html">Haicai de Burnout</a></li>
+<li><a href="2025-09-15-Haicai_de_Sonho.html">Haicai de Sonho</a></li>
+<li><a href="2025-09-10-Haicai_Regado.html">Haicai Regado</a></li>
+<li><a href="2025-09-09-Haicai_Podado.html">Haicai Podado</a></li>
+<li><a href="2025-09-07-Haicai_Respire.html">Haicai Respire</a></li>
+<li><a href="2025-09-02-Haicai_Eu_Esqueço.html">Haicai Eu Esqueço</a></li>
+<li><a href="2025-09-01-Haicai_Corrompido.html">Haicai Corrompido</a></li>
+<li><a href="2025-08-31-Hoje_contornei_um_arco_íris.html">Hoje contornei um arco íris</a></li>
+<li><a href="2025-08-31-Haicai_de_Arcoíris.html">Haicai de Arcoíris</a></li>
+<li><a href="2025-08-28-Haicai_só_hoje.html">Haicai só hoje</a></li>
+<li><a href="2025-08-27-Haicai_Revisto.html">Haicai Revisto</a></li>
+<li><a href="2025-08-26-Haicai_Doase.html">Haicai Doase</a></li>
+<li><a href="2025-08-25-Haicai_Horizontal.html">Haicai Horizontal</a></li>
+<li><a href="2025-08-21-Haicai_Bilingue.html">Haicai Bilingue</a></li>
+<li><a href="2025-08-18-Haicai_Brasílis.html">Haicai Brasílis</a></li>
+<li><a href="2025-08-17-Haicai_Dejavu.html">Haicai Dejavu</a></li>
+<li><a href="2025-08-15-Haicai_de_Penso.html">Haicai de Penso</a></li>
+<li><a href="2025-08-14-Haicai_Extremamente_Fácil.html">Haicai Extremamente Fácil</a></li>
+<li><a href="2025-08-12-Haicalismo.html">Haicalismo</a></li>
+<li><a href="2025-08-10-Haicai_de_Pensamento.html">Haicai de Pensamento</a></li>
+<li><a href="2025-08-09-Haicais_de_seria.html">Haicais de seria</a></li>
+<li><a href="2025-08-08-Palindromo_Ó_vovó.html">Palindromo Ó vovó</a></li>
+<li><a href="2025-08-06-Haicai_vulnerável.html">Haicai vulnerável</a></li>
+<li><a href="2025-08-05-Haicai_Tupinambá.html">Haicai Tupinambá</a></li>
+<li><a href="2025-08-04-Textículo_Reencontrado_1_Pés_de_vento.html">Textículo Reencontrado 1 Pés de vento</a></li>
+<li><a href="2025-08-04-Poesias_reencontradas_Versinho_de_Dor.html">Poesias reencontradas Versinho de Dor</a></li>
+<li><a href="2025-08-04-Poesias_Reencontradas_Rascunhicídio.html">Poesias Reencontradas Rascunhicídio</a></li>
+<li><a href="2025-08-04-Poesias_Reencontradas_Natureza_da_árvore.html">Poesias Reencontradas Natureza da árvore</a></li>
+<li><a href="2025-08-04-Poesias_Reencontradas_Fim_do_ano_sem_fim.html">Poesias Reencontradas Fim do ano sem fim</a></li>
+<li><a href="2025-08-04-Poesias_Reencontradas_Falta.html">Poesias Reencontradas Falta</a></li>
+<li><a href="2025-08-04-Poesias_Hoje_sairei_de_casa.html">Poesias Hoje sairei de casa</a></li>
+<li><a href="2025-08-04-O_tempo_não_para.html">O tempo não para</a></li>
+<li><a href="2025-08-04-Haicai_de_Passeio.html">Haicai de Passeio</a></li>
+<li><a href="2025-08-04-Haicai_Amarelo.html">Haicai Amarelo</a></li>
+<li><a href="2025-08-03-Haicai_Caminha.html">Haicai Caminha</a></li>
+<li><a href="2025-07-30-Haicai_Reencontrado.html">Haicai Reencontrado</a></li>
+<li><a href="2025-07-29-Haicai_de_Imbróglio.html">Haicai de Imbróglio</a></li>
+<li><a href="2025-07-29-Haicai_de_desamparo.html">Haicai de desamparo</a></li>
+<li><a href="2025-07-28-Haicai_Insit.html">Haicai Insit</a></li>
+<li><a href="2025-07-28-Aviso_estou_morrendo.html">Aviso estou morrendo</a></li>
+<li><a href="2025-07-27-Haicai_de_emergência.html">Haicai de emergência</a></li>
+<li><a href="2025-07-26-Haicai_comentado.html">Haicai comentado</a></li>
+<li><a href="2025-07-25-Haicai_Essencialista.html">Haicai Essencialista</a></li>
+<li><a href="2025-07-24-Haicai_de_semeador.html">Haicai de semeador</a></li>
+<li><a href="2025-07-22-Haicai_de_Escritura.html">Haicai de Escritura</a></li>
+<li><a href="2025-07-22-Haicai_a_Ozzy.html">Haicai a Ozzy</a></li>
+<li><a href="2025-07-21-Haicai_de_Fofoca.html">Haicai de Fofoca</a></li>
+<li><a href="2025-07-20-Haicai_de_Preenchimento.html">Haicai de Preenchimento</a></li>
+<li><a href="2025-07-19-Haicai_a_Madonna.html">Haicai a Madonna</a></li>
+<li><a href="2025-07-18-Apesar_de_Você.html">Apesar de Você</a></li>
+<li><a href="2025-07-17-Haicai_Devirista.html">Haicai Devirista</a></li>
+<li><a href="2025-07-16-Haicai_Latino.html">Haicai Latino</a></li>
+<li><a href="2025-07-14-Timbres_Personas_e_Descobertas.html">Timbres Personas e Descobertas</a></li>
+<li><a href="2025-07-13-Haicai_de_Pintura.html">Haicai de Pintura</a></li>
+<li><a href="2025-07-11-Haicai_de_Sementes.html">Haicai de Sementes</a></li>
+<li><a href="2025-07-10-Haicai_Hostil.html">Haicai Hostil</a></li>
+<li><a href="2025-07-09-Haicai_de_Mão.html">Haicai de Mão</a></li>
+<li><a href="2025-07-08-Haicai_16mil.html">Haicai 16mil</a></li>
+<li><a href="2025-07-07-Haicai_de_Garra.html">Haicai de Garra</a></li>
+<li><a href="2025-07-06-Haicai_de_Passagem.html">Haicai de Passagem</a></li>
+<li><a href="2025-07-05-Haicai_Temporão.html">Haicai Temporão</a></li>
+<li><a href="2025-07-04-Haicai_de_Arte.html">Haicai de Arte</a></li>
+<li><a href="2025-07-03-Haicai_de_Bailarina.html">Haicai de Bailarina</a></li>
+<li><a href="2025-07-02-Haicai_Pela_Metade.html">Haicai Pela Metade</a></li>
+<li><a href="2025-07-01-Haicai_de_convalescência.html">Haicai de convalescência</a></li>
+<li><a href="2025-06-30-Haicai_de_Resistência.html">Haicai de Resistência</a></li>
+<li><a href="2025-06-29-Haicai_Vital.html">Haicai Vital</a></li>
+<li><a href="2025-06-28-Haicai_Mudo.html">Haicai Mudo</a></li>
+<li><a href="2025-06-27-Mudança.html">Mudança</a></li>
+<li><a href="2025-06-27-Haicai_de_Trauma.html">Haicai de Trauma</a></li>
+<li><a href="2025-06-26-Haicai_Luto.html">Haicai Luto</a></li>
+<li><a href="2025-06-25-Haicai_de_frete.html">Haicai de frete</a></li>
+<li><a href="2025-06-24-Haicai_de_mudança.html">Haicai de mudança</a></li>
+<li><a href="2025-06-19-Ei_Erra_Farreie.html">Ei Erra Farreie</a></li>
+<li><a href="2025-06-18-Haicai_de_resmas.html">Haicai de resmas</a></li>
+<li><a href="2025-06-16-Haicai_era_Acróstico.html">Haicai era Acróstico</a></li>
+<li><a href="2025-06-15-Poema_Palindromo_O_colo.html">Poema Palindromo O colo</a></li>
+<li><a href="2025-06-15-Haicais_Acrósticos.html">Haicais Acrósticos</a></li>
+<li><a href="2025-06-15-Haicai_Aos_acrósticos.html">Haicai Aos acrósticos</a></li>
+<li><a href="2025-06-14-Haicai_de_Legado.html">Haicai de Legado</a></li>
+<li><a href="2025-06-13-Haicai_à_Antônia.html">Haicai à Antônia</a></li>
+<li><a href="2025-06-12-Só_então_vai_se_tornar.html">Só então vai se tornar</a></li>
+<li><a href="2025-06-12-Haicai_Ora_acróstico.html">Haicai Ora acróstico</a></li>
+<li><a href="2025-06-11-Haicai_São_acrósticos.html">Haicai São acrósticos</a></li>
+<li><a href="2025-06-10-Materiais_Sensíveis.html">Materiais Sensíveis</a></li>
+<li><a href="2025-06-10-Haicai_aos_acrósticos.html">Haicai aos acrósticos</a></li>
+<li><a href="2025-06-09-Haicai_de_Valeu.html">Haicai de Valeu</a></li>
+<li><a href="2025-06-08-Haicai_de_Quermesse.html">Haicai de Quermesse</a></li>
+<li><a href="2025-06-07-Haicai_de_Ontem.html">Haicai de Ontem</a></li>
+<li><a href="2025-06-05-Haicai_de_Vidro.html">Haicai de Vidro</a></li>
+<li><a href="2025-06-04-Haicai_de_Amizade.html">Haicai de Amizade</a></li>
+<li><a href="2025-06-02-Haicai_de_Amor.html">Haicai de Amor</a></li>
+<li><a href="2025-06-01-Haicai_de_Melhores_Pessoas.html">Haicai de Melhores Pessoas</a></li>
+<li><a href="2025-05-30-Haicai_Proibido.html">Haicai Proibido</a></li>
+<li><a href="2025-05-29-Haicai_de_Entrega.html">Haicai de Entrega</a></li>
+<li><a href="2025-05-28-Haicai_de_Porcelana.html">Haicai de Porcelana</a></li>
+<li><a href="2025-05-27-Haicai_de_Cristais.html">Haicai de Cristais</a></li>
+<li><a href="2025-05-26-Haicai_de_Louça.html">Haicai de Louça</a></li>
+<li><a href="2025-05-25-Haicai_de_ficha.html">Haicai de ficha</a></li>
+<li><a href="2025-05-22-Haicai_de_Sono.html">Haicai de Sono</a></li>
+<li><a href="2025-05-21-Haicai_Revivido.html">Haicai Revivido</a></li>
+<li><a href="2025-05-15-Haicai_de_Passagem.html">Haicai de Passagem</a></li>
+<li><a href="2025-05-14-Perdão.html">Perdão</a></li>
+<li><a href="2025-05-13-Haicai_à_Mujica.html">Haicai à Mujica</a></li>
+<li><a href="2025-05-12-Haicai_de_pet.html">Haicai de pet</a></li>
+<li><a href="2025-05-11-Haicai_de_Vazio.html">Haicai de Vazio</a></li>
+<li><a href="2025-05-10-Haicai_de_acaso.html">Haicai de acaso</a></li>
+<li><a href="2025-05-09-Haicai_de_enterrador.html">Haicai de enterrador</a></li>
+<li><a href="2025-05-08-Haicai_de_Nunca_Mais.html">Haicai de Nunca Mais</a></li>
+<li><a href="2025-05-07-Haicai_do_garoto.html">Haicai do garoto</a></li>
+<li><a href="2025-05-06-Haicai_Eventual.html">Haicai Eventual</a></li>
+<li><a href="2025-05-02-Haicai_de_Tempo.html">Haicai de Tempo</a></li>
+<li><a href="2025-05-01-Ananá_Banana_Ana.html">Ananá Banana Ana</a></li>
+<li><a href="2025-04-30-Haicai_de_Trinta.html">Haicai de Trinta</a></li>
+<li><a href="2025-04-29-Haicai_de_Aniversário.html">Haicai de Aniversário</a></li>
+<li><a href="2025-04-28-Haicai_Original.html">Haicai Original</a></li>
+<li><a href="2025-04-27-Haicai_Íntimo.html">Haicai Íntimo</a></li>
+<li><a href="2025-04-26-Haicai_de_velho.html">Haicai de velho</a></li>
+<li><a href="2025-04-24-Rejeição.html">Rejeição</a></li>
+<li><a href="2025-04-24-Haicai_Desoriginalizado.html">Haicai Desoriginalizado</a></li>
+<li><a href="2025-04-23-Haicais_de_cabeça.html">Haicais de cabeça</a></li>
+<li><a href="2025-04-22-Haicai_de_Samba.html">Haicai de Samba</a></li>
+<li><a href="2025-04-21-Haicais_coincidente.html">Haicais coincidente</a></li>
+<li><a href="2025-04-20-Haicai_Quaresmal.html">Haicai Quaresmal</a></li>
+<li><a href="2025-04-19-Sem_fins_lucrativos.html">Sem fins lucrativos</a></li>
+<li><a href="2025-04-19-Haicai_Limerente.html">Haicai Limerente</a></li>
+<li><a href="2025-04-18-Haicai_de_Refúgio.html">Haicai de Refúgio</a></li>
+<li><a href="2025-04-17-Haicai_de_Ruptura.html">Haicai de Ruptura</a></li>
+<li><a href="2025-04-01-Poemas_Palíndromo_Eu_quê.html">Poemas Palíndromo Eu quê</a></li>
+<li><a href="2025-03-29-Sobresalências.html">Sobresalências</a></li>
+<li><a href="2025-03-29-Poemas_Palíndromo_Da_Terra.html">Poemas Palíndromo Da Terra</a></li>
+<li><a href="2025-03-29-Haicai_de_diferença.html">Haicai de diferença</a></li>
+<li><a href="2025-03-29-Haicai_Colorido.html">Haicai Colorido</a></li>
+<li><a href="2025-03-28-Haicai_Atentoh.html">Haicai Atentoh</a></li>
+<li><a href="2025-03-24-Troco_acolhimento.html">Troco acolhimento</a></li>
+<li><a href="2025-03-23-Haicai_de_coração.html">Haicai de coração</a></li>
+<li><a href="2025-03-18-Refluxo_gastroencefálico.html">Refluxo gastroencefálico</a></li>
+<li><a href="2025-03-14-Haicai_à_Ritalee.html">Haicai à Ritalee</a></li>
+<li><a href="2025-03-12-O_mímico.html">O mímico</a></li>
+<li><a href="2025-03-11-Haicais_de_Tratamento.html">Haicais de Tratamento</a></li>
+<li><a href="2025-03-10-Haicai_Sentido.html">Haicai Sentido</a></li>
+<li><a href="2025-03-09-Haicai_Incontido.html">Haicai Incontido</a></li>
+<li><a href="2025-03-08-Haicai_autocorreto.html">Haicai autocorreto</a></li>
+<li><a href="2025-03-06-Haicais_Substituto.html">Haicais Substituto</a></li>
+<li><a href="2025-03-05-Soneto_Palindromia_Sonética.html">Soneto Palindromia Sonética</a></li>
+<li><a href="2025-03-05-Pare_Lola_descanse.html">Pare Lola descanse</a></li>
+<li><a href="2025-03-05-Haicai_Insone.html">Haicai Insone</a></li>
+<li><a href="2025-03-04-Haicai_Brutalista.html">Haicai Brutalista</a></li>
+<li><a href="2025-03-03-Poemas_Palíndromos_Ramos_a_somar.html">Poemas Palíndromos Ramos a somar</a></li>
+<li><a href="2025-03-03-Haicai_Relaxante.html">Haicai Relaxante</a></li>
+<li><a href="2025-03-02-Haicai_às_Eunices.html">Haicai às Eunices</a></li>
+<li><a href="2025-03-01-Haicai_afiado.html">Haicai afiado</a></li>
+<li><a href="2025-02-28-Haicai_Haver.html">Haicai Haver</a></li>
+<li><a href="2025-02-27-TDAHaicai.html">TDAHaicai</a></li>
+<li><a href="2025-02-27-Movimentação.html">Movimentação</a></li>
+<li><a href="2025-02-26-Hai_Cai_de_Patins.html">Hai Cai de Patins</a></li>
+<li><a href="2025-02-25-Haicais_enterrados.html">Haicais enterrados</a></li>
+<li><a href="2025-02-25-Haicai_de_ônibus.html">Haicai de ônibus</a></li>
+<li><a href="2025-02-24-Haicai_Lunar.html">Haicai Lunar</a></li>
+<li><a href="2025-02-21-Haicai_Sobre_Vida.html">Haicai Sobre Vida</a></li>
+<li><a href="2025-02-21-Haicais_de_Fios_e_fé.html">Haicais de Fios e fé</a></li>
+<li><a href="2025-02-18-Haicais_Silenciosos.html">Haicais Silenciosos</a></li>
+<li><a href="2025-02-16-Pequeno_Espacinho.html">Pequeno Espacinho</a></li>
+<li><a href="2025-02-12-Haicais_sobre_nós.html">Haicais sobre nós</a></li>
+<li><a href="2025-02-07-Poesia_Errada_Prioridades.html">Poesia Errada Prioridades</a></li>
+<li><a href="2025-02-01-Poesia_Roubada_Tu_me_manques.html">Poesia Roubada Tu me manques</a></li>
+<li><a href="2025-01-30-Haicai_Apagado.html">Haicai Apagado</a></li>
+<li><a href="2025-01-29-Reviver_e_viver.html">Reviver e viver</a></li>
+<li><a href="2025-01-29-Haicai_Reduzido.html">Haicai Reduzido</a></li>
+<li><a href="2025-01-27-Haicai_de_Autoengano.html">Haicai de Autoengano</a></li>
+<li><a href="2025-01-26-Haicai_excitado.html">Haicai excitado</a></li>
+<li><a href="2025-01-25-Haicai_derramado.html">Haicai derramado</a></li>
+<li><a href="2025-01-24-Haicai_espinhoso.html">Haicai espinhoso</a></li>
+<li><a href="2025-01-23-Haicai_de_Uva.html">Haicai de Uva</a></li>
+<li><a href="2025-01-22-Haicai_Aéreo.html">Haicai Aéreo</a></li>
+<li><a href="2025-01-21-Haicai_Cítrico.html">Haicai Cítrico</a></li>
+<li><a href="2025-01-20-Haicai_de_Parede.html">Haicai de Parede</a></li>
+<li><a href="2025-01-19-Um_Haicai_Sobre_Nós.html">Um Haicai Sobre Nós</a></li>
+<li><a href="2025-01-18-Haicai_pro_futuro.html">Haicai pro futuro</a></li>
+<li><a href="2025-01-17-Haicai_Do_Silêncio.html">Haicai Do Silêncio</a></li>
+<li><a href="2025-01-16-Haicai_da_Indiferença.html">Haicai da Indiferença</a></li>
+<li><a href="2025-01-15-Oração_Proteção.html">Oração Proteção</a></li>
+<li><a href="2025-01-15-O_Primeiro_Notívago.html">O Primeiro Notívago</a></li>
+<li><a href="2025-01-15-Manhãs_de_segunda_ou_Equilíbrio_de_gatos.html">Manhãs de segunda ou Equilíbrio de gatos</a></li>
+<li><a href="2025-01-15-Haicai_do_Aterro.html">Haicai do Aterro</a></li>
+<li><a href="2025-01-15-A_Casa.html">A Casa</a></li>
+<li><a href="2025-01-14-Haicai_Inaugural.html">Haicai Inaugural</a></li>
+<li><a href="2025-01-13-Ser_e_viver_reviveres.html">Ser e viver reviveres</a></li>
+<li><a href="2025-01-13-Primeiros_Haicais.html">Primeiros Haicais</a></li>
+<li><a href="2025-01-13-Haicai_do_Morro.html">Haicai do Morro</a></li>
+<li><a href="2025-01-12-Haicai_Fiado.html">Haicai Fiado</a></li>
+<li><a href="2025-01-11-Haicai_Doído.html">Haicai Doído</a></li>
+<li><a href="2025-01-10-Samba_de_fé.html">Samba de fé</a></li>
+<li><a href="2025-01-10-Haicai_para_viagem.html">Haicai para viagem</a></li>
+<li><a href="2025-01-09-Haicai_sobre_Haicais.html">Haicai sobre Haicais</a></li>
+<li><a href="2025-01-08-Haicai_de_Aprendizado.html">Haicai de Aprendizado</a></li>
+<li><a href="2025-01-07-Haicai_de_Sonho.html">Haicai de Sonho</a></li>
+<li><a href="2025-01-06-Haicai_de_Força.html">Haicai de Força</a></li>
+<li><a href="2025-01-05-Haicai_do_Grito.html">Haicai do Grito</a></li>
+<li><a href="2025-01-04-Haicai_de_Liberdade.html">Haicai de Liberdade</a></li>
+<li><a href="2025-01-03-Haicai_do_compromisso.html">Haicai do compromisso</a></li>
+<li><a href="2025-01-02-Haicai_de_Alma.html">Haicai de Alma</a></li>
+<li><a href="2025-01-01-Haicai_de_Ano_novo.html">Haicai de Ano novo</a></li>
+<li><a href="2024-12-30-Me_ser_e_tecer.html">Me ser e tecer</a></li>
+<li><a href="2024-12-29-Floresça.html">Floresça</a></li>
+<li><a href="2024-12-13-Poemas_Roubados_Tacituras.html">Poemas Roubados Tacituras</a></li>
+<li><a href="2024-10-29-Poemas_Palíndromo_À_diva.html">Poemas Palíndromo À diva</a></li>
+<li><a href="2024-10-06-Haicais_do_Arvoredo.html">Haicais do Arvoredo</a></li>
+<li><a href="2024-10-01-Poemas_Roubados_Tenho_roubado_versos.html">Poemas Roubados Tenho roubado versos</a></li>
+<li><a href="2024-01-01-Creditos.html">Creditos</a></li>
+<li><a href="Capa.html">Capa</a></li>
+<li><a href="SUMMARY.html">Summary</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="RSS.html">RSS Feed</a><br> <br>​
+ <br>​
+ <br>​
+ <br>​
+ <br>​</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Capa.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="About.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Capa.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="About.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-72910b3b.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
