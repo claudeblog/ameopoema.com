@@ -17,6 +17,20 @@ echo "📅 Corrigindo data nos blocos de citação..."
 echo "✍️ Corrigindo quebras de linha nos arquivos .md..."
 ./fix-line-breaks.sh
 
+echo "📚 Construindo o site base com mdBook..."
+rm -rf book/
+mdbook build
+
+echo "📄 Criando blog.html para leitura contínua..."
+./create-blog.sh
+
+echo "📡 Gerando feed RSS..."
+./generate-feed.sh
+
+echo "🌐 Configurando domínio personalizado: $DOMAIN"
+echo "$DOMAIN" > book/CNAME
+echo "$DOMAIN" > CNAME
+
 echo "📤 Commitando alterações no repositório principal"
 if [ -n "$(git status --porcelain)" ]; then
     git add .
@@ -32,21 +46,6 @@ $changed_files"
 else
     echo "ℹ️ Nenhuma alteração para commitar."
 fi
-
-
-echo "📚 Construindo o site base com mdBook..."
-rm -rf book/
-mdbook build
-
-echo "📄 Criando blog.html para leitura contínua..."
-./create-blog.sh
-
-echo "📡 Gerando feed RSS..."
-./generate-feed.sh
-
-echo "🌐 Configurando domínio personalizado: $DOMAIN"
-echo "$DOMAIN" > book/CNAME
-echo "$DOMAIN" > CNAME
 
 echo "🚀 Publicando para gh-pages..."
 TMP_DIR=$(mktemp -d -t gh-pages-deploy-XXXXXX)
