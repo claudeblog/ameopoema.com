@@ -56,6 +56,4 @@ find . -name "*.md" \
         }
     }
     ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
-
-    echo "   ✔ $file"
 done
