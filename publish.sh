@@ -89,12 +89,12 @@ echo "   ✅ feed.xml copiado para book/"
 
 
 # ============================================================
-# ADICIONAR BOTÃO "BLOG" EM TODAS AS PÁGINAS (à esquerda do ícone de impressão)
+# ADICIONAR BOTÃO "BLOG, RSS e ABOUT" EM TODAS AS PÁGINAS (à esquerda do ícone de impressão)
 # ============================================================
 echo "🔘 Inserindo botão 'Blog' à esquerda do ícone de impressão..."
 
 BLOG_BUTTON='<a href="blog.html" title="Ver todos os poemas" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Blog</a>'
-RSS_BUTTON='<a href="feed.xml" title="Feed RSS" aria-label="RSS" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">RSS</a>'
+RSS_BUTTON='<button onclick="(function(){const u='\''https://ameopoema.com/feed'\''; navigator.clipboard.writeText(u).then(()=>{const t=document.createElement('\''div'\''); t.textContent='\''📋 feed copiado'\''; t.style.cssText='\''position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:10px 20px;border-radius:6px;z-index:9999;opacity:0;transition:opacity 0.3s'\''; document.body.appendChild(t); setTimeout(()=>t.style.opacity='\''1'\'',10); setTimeout(()=>{t.style.opacity='\''0'\''; setTimeout(()=>t.remove(),300)},2000)}).catch(()=>alert('\''Erro ao copiar'\''))})()" ...>RSS</button>'
 ABOUT_BUTTON='<a href="Sobre.html" title="About" aria-label="About" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Sobre</a>'
 
 # Combina os dois botões (a ordem define qual aparece primeiro)
