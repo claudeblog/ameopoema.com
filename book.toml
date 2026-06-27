@@ -1,4 +1,8 @@
 [book]
-title = "ameopoema.com"
+title = "Ameopoema.com"
 authors = ["Claude"]
-language = "en"
+language = "pt-br"
+
+[output.html]
+default-theme = "light"
+site-url = "/"
