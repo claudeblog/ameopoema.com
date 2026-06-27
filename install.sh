@@ -1,6 +1,39 @@
 #!/bin/bash
 set -e
 
+# ----------------------------------------------------------------------
+# Verifica se o arquivo .env existe
+# ----------------------------------------------------------------------
+if [ ! -f .env ]; then
+    echo "❌ Arquivo .env não encontrado. Crie um arquivo .env com as configurações necessárias."
+    exit 1
+fi
+
+echo "📄 Carregando arquivo env..."
+set -a
+. .env
+set +a
+
+# ----------------------------------------------------------------------
+# Gera o book.toml a partir das variáveis do .env
+# ----------------------------------------------------------------------
+echo "📝 Gerando book.toml..."
+cat > book.toml <<EOF
+[book]
+title = "$BOOK_TITLE"
+authors = ["$BOOK_AUTHORS"]
+language = "$BOOK_LANGUAGE"
+
+[output.html]
+default-theme = "$OUTPUT_HTML_DEFAULT_THEME"
+preferred-dark-theme = "$OUTPUT_HTML_PREFERRED_DARK_THEME"
+EOF
+
+echo "✅ book.toml criado com sucesso."
+
+# ----------------------------------------------------------------------
+# Instalação dos pré-requisitos
+# ----------------------------------------------------------------------
 echo "🔧 Instalando pré-requisitos para o projeto mdBook..."
 
 # Detecta distribuição
@@ -58,9 +91,9 @@ if ! grep -q 'export PATH="$HOME/.cargo/bin:$PATH"' ~/.bashrc; then
     echo "➕ PATH atualizado no ~/.bashrc"
 fi
 
-# ------------------------------------------------------------
+# ----------------------------------------------------------------------
 # Dar permissão de execução para todos os scripts .sh existentes
-# ------------------------------------------------------------
+# ----------------------------------------------------------------------
 echo "🔑 Dando permissão de execução para os scripts .sh..."
 
 # Lista de scripts esperados (opcional – também pode usar find)
@@ -85,9 +118,9 @@ for script in "${scripts[@]}"; do
     fi
 done
 
-# ------------------------------------------------------------
-# Verifica se o comando ffprobe está disponível (pode ser necessário reiniciar o terminal)
-# ------------------------------------------------------------
+# ----------------------------------------------------------------------
+# Verifica se o comando ffprobe está disponível
+# ----------------------------------------------------------------------
 if command -v ffprobe &> /dev/null; then
     echo "✅ ffprobe instalado – o feed RSS poderá incluir a duração dos áudios."
 else
