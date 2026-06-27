@@ -66,4 +66,3 @@ echo "✍️  Gerando templates"
 ./template.sh || true
 
 echo "✅ Publicação concluída em: $DOMAIN"
-echo "O feed RSS está disponível em: https://$DOMAIN/feed.xml"
