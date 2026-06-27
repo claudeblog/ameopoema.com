@@ -33,28 +33,3 @@ sed -i '/<h1 id="sum[áa]rio">/,/<div style="break-before: page; page-break-befo
 sed -i '/<h1>Sum[áa]rio<\/h1>/,/<div style="break-before: page; page-break-before: always;"><\/div>/d' book/blog.html
 
 echo "✅ Seção do sumário removida."
-
-# ============================================================
-# ADICIONAR BOTÃO "BLOG" EM TODAS AS PÁGINAS (à esquerda do ícone de impressão)
-# ============================================================
-echo "🔘 Inserindo botão 'Blog' à esquerda do ícone de impressão..."
-
-BLOG_BUTTON='<a href="blog.html" title="Ver todos os poemas" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Blog</a>'
-RSS_BUTTON='<a href="feed.xml" title="Feed RSS" aria-label="RSS" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">RSS</a>'
-ABOUT_BUTTON='<a href="Sobre.html" title="About" aria-label="About" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Sobre</a>'
-
-# Combina os dois botões (a ordem define qual aparece primeiro)
-BOTH_BUTTONS="${ABOUT_BUTTON}${BLOG_BUTTON}${RSS_BUTTON}"
-
-# Processa todas as páginas HTML na raiz da pasta book (exceto print.html e blog.html)
-find book -maxdepth 1 -name "*.html" -type f | while read -r page; do
-    # Remove qualquer botão Blog existente
-    perl -i -0pe 's|<a href="blog\.html"[^>]*>.*?Blog<\/a>||gs' "$page"
-    
-    # Insere o botão dentro da div .right-buttons, antes do link de impressão
-    perl -i -0pe 's|(<div class="right-buttons">)(.*?)(<a href="print\.html")|\1'"$BOTH_BUTTONS"'\2\3|s' "$page"
-    
-    echo "   ✅ Botão inserido em: $(basename "$page")"
-done
-
-echo "✅ Botão 'Blog' adicionado em todas as páginas (à esquerda do ícone de impressão)."
