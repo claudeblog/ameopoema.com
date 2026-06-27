@@ -789,11 +789,19 @@ aria-label="Show hidden lines"></button>';
     });
 })();
 
-(function scrollToTop() {
+/* (function scrollToTop() {
     const menuTitle = document.querySelector('.menu-title');
 
     menuTitle.addEventListener('click', function() {
         document.scrollingElement.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+})(); */
+
+(function goToHome() {
+    const menuTitle = document.querySelector('.menu-title');
+    
+    menuTitle.addEventListener('click', function() {
+        window.location.href = '.';
     });
 })();
 
