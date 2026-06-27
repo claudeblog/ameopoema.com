@@ -36,5 +36,4 @@ find "$TARGET_DIR" -maxdepth 1 -type f -name "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0
     }' "$file" > "$tmp_file"
 
     mv "$tmp_file" "$file"
-    echo "Corrigido: $file -> data única adicionada/atualizada ao final como ###### *$formatted_date*"
 done

@@ -1,13 +1,6 @@
 #!/bin/bash
 
-# Script: fix-line-breaks.sh
-# Descrição:
-#   1. Remove qualquer linha injetada anteriormente (padrões antigos e novos).
-#   2. Garante que linhas com conteúdo terminem com 2 espaços.
-#   3. Mantém no máximo 2 linhas vazias consecutivas.
-#   4. Adiciona 5 linhas com "&nbsp;<br>" + caractere invisível no final.
-
-echo "🔧 Limpando e corrigindo arquivos .md..."
+echo "🔧 Limpando quebras de linha em arquivos .md..."
 
 INVISIBLE_CHAR=$(printf '\u200B')
 
@@ -66,9 +59,3 @@ find . -name "*.md" \
 
     echo "   ✔ $file"
 done
-
-echo "✅ Concluído:"
-echo "   - Removidas linhas antigas (&nbsp;<br>, invisíveis e espaços finais)."
-echo "   - Linhas com conteúdo → exatamente 2 espaços no final."
-echo "   - Linhas vazias → preservadas até o máximo de 2 consecutivas."
-echo "   - Adicionadas 5 linhas com '&nbsp;<br>' + caractere invisível ao final."
