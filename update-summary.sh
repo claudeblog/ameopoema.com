@@ -13,14 +13,14 @@ cat > "$TMP_SUMMARY" << 'HEAD'
 
 HEAD
 
-# Lista todos os arquivos .md exceto README|SUMMARY|Sobre|Capa|RSS e Templates
+# Lista todos os arquivos .md exceto README|SUMMARY|About|Capa|RSS e Templates
 files=()
 for file in src/*.md; do
     [ -f "$file" ] || continue
     basename=$(basename "$file")
 
     # Ignorar páginas especiais e arquivos que contenham espaços
-    [[ "$basename" =~ ^(README|SUMMARY|Sobre|Capa|RSS)\.md$ ]] && continue
+    [[ "$basename" =~ ^(README|SUMMARY|About|Capa|RSS)\.md$ ]] && continue
     [[ "$basename" =~ \  ]] && { echo "⚠️ Ignorando arquivo com espaço: $basename"; continue; }
     
     # Ignorar arquivos que terminam com Template.md 
@@ -53,7 +53,7 @@ done
 # Adiciona páginas especiais ao final do Summary
 echo "- [Sumário](SUMMARY.md)" >> "$TMP_SUMMARY"
 
-[ -f "src/Sobre.md" ] && echo "- [Sobre](Sobre.md)" >> "$TMP_SUMMARY"
+[ -f "src/About.md" ] && echo "- [About](About.md)" >> "$TMP_SUMMARY"
 [ -f "src/RSS.md" ] && echo "- [RSS Feed](RSS.md)" >> "$TMP_SUMMARY"
 [ -f "src/Capa.md" ] && echo "- [Capa](Capa.md)" >> "$TMP_SUMMARY"
 

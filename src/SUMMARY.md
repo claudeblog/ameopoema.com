@@ -278,7 +278,7 @@
 - [Poemas Roubados Tenho roubado versos](2024-10-01-Poemas_Roubados_Tenho_roubado_versos.md)  
 - [Creditos](2024-01-01-Creditos.md)  
 - [Sumário](SUMMARY.md)  
-- [Sobre](Sobre.md)  
+- [About](About.md)  
 - [RSS Feed](RSS.md)  
 - [Capa](Capa.md)  
 &nbsp;<br>​
