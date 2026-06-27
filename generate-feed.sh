@@ -117,7 +117,7 @@ for filename in "${files[@]}"; do
     <link>${link}</link>
     <guid isPermaLink="true">${link}</guid>
     <pubDate>${pubdate}</pubDate>
-    <description><pre style="white-space: pre-wrap; word-wrap: break-word;">${escaped_content}</pre></description>
+    <description>&lt;pre&gt;${escaped_content}&lt;/pre&gt;</description>
 ITEMEOF
 
     # Se há áudio, adiciona enclosure e duração
