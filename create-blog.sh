@@ -39,7 +39,11 @@ echo "✅ Seção do sumário removida."
 # ============================================================
 echo "🔘 Inserindo botão 'Blog' à esquerda do ícone de impressão..."
 
-BLOG_BUTTON='<a href="blog.html" title="Ver todos os poemas em sequência" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Blog</a>'
+BLOG_BUTTON='<a href="blog.html" title="Ver todos os poemas" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Blog</a>'
+RSS_BUTTON='<a href="feed.xml" title="Feed RSS" aria-label="RSS" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">RSS</a>'
+
+# Combina os dois botões (a ordem define qual aparece primeiro)
+BOTH_BUTTONS="${BLOG_BUTTON}${RSS_BUTTON}"
 
 # Processa todas as páginas HTML na raiz da pasta book (exceto print.html e blog.html)
 find book -maxdepth 1 -name "*.html" ! -name "print.html" ! -name "blog.html" -type f | while read -r page; do
@@ -47,7 +51,7 @@ find book -maxdepth 1 -name "*.html" ! -name "print.html" ! -name "blog.html" -t
     perl -i -0pe 's|<a href="blog\.html"[^>]*>.*?Blog<\/a>||gs' "$page"
     
     # Insere o botão dentro da div .right-buttons, antes do link de impressão
-    perl -i -0pe 's|(<div class="right-buttons">)(.*?)(<a href="print\.html")|\1'"$BLOG_BUTTON"'\2\3|s' "$page"
+    perl -i -0pe 's|(<div class="right-buttons">)(.*?)(<a href="print\.html")|\1'"$BOTH_BUTTONS"'\2\3|s' "$page"
     
     echo "   ✅ Botão inserido em: $(basename "$page")"
 done
