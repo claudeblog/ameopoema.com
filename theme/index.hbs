@@ -167,6 +167,9 @@
                     <h1 class="menu-title">{{ book_title }}</h1>
 
                     <div class="right-buttons">
+                        <a href="blog.html" title="Ver todos os poemas" aria-label="Blog" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Blog</a>
+                        <button onclick="(function(){var u='\''https://ameopoema.com/feed'\'';navigator.clipboard.writeText(u).then(function(){var t=document.createElement('\''div'\'');t.textContent='\''📋 ameopoema.com/feed copiado'\'';t.style.cssText='\''position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:10px 20px;border-radius:6px;z-index:9999;opacity:0;transition:opacity 0.3s;font-size:14px;'\'';document.body.appendChild(t);setTimeout(function(){t.style.opacity='\''1'\'';},10);setTimeout(function(){t.style.opacity='\''0'\'';setTimeout(function(){t.remove();},300);},2000);}).catch(function(){})})()" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder; background: none; border: none; cursor: pointer; font-size: inherit; font-family: inherit; padding: 0; text-decoration: none; outline: none; box-shadow: none;">RSS</button>
+                        <a href="Sobre.html" title="About" aria-label="About" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Sobre</a>
                         {{#if print_enable}}
                         <a href="{{ path_to_root }}print.html" title="Print this book" aria-label="Print this book">
                             {{fa "solid" "print" "print-button"}}

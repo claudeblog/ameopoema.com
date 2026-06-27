@@ -98,7 +98,8 @@ RSS_BUTTON='<button onclick="(function(){var u='\''https://ameopoema.com/feed'\'
 ABOUT_BUTTON='<a href="Sobre.html" title="About" aria-label="About" style="margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; color: gray; font-weight: bolder;">Sobre</a>'
 
 # Combina os dois botões (a ordem define qual aparece primeiro)
-BOTH_BUTTONS="${ABOUT_BUTTON}${BLOG_BUTTON}${RSS_BUTTON}"
+BOTH_BUTTONS=""
+#"${ABOUT_BUTTON}${BLOG_BUTTON}${RSS_BUTTON}"
 
 # Processa todas as páginas HTML na raiz da pasta book (exceto print.html e blog.html)
 find book -maxdepth 1 -name "*.html" -type f | while read -r page; do
